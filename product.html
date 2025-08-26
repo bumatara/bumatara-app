@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bumatara</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .bg-color-1 {
+            background-color: #4a2d65;
+        }
+
+        .card.soft-shadow {
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .bumatara-logo {
+            width: 50px;
+            height: 25px;
+            background-color: #8a2be2;
+        }
+
+        .placeholder-box {
+            background-color: #e9ecef;
+            min-height: 200px;
+        }
+
+        .feature-card {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 11px rgba(0, 0, 0, 0.2);
+        }
+
+        .feature-icon {
+            background-color: #007bff;
+            width: 40px;
+            height: 40px;
+            border-radius: 5px;
+        }
+
+        .ocr-section {
+            background-color: #f1f3f5;
+        }
+
+        .ocr-content-box {
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            border: 1px solid #dee2e6;
+        }
+
+        .ocr-placeholder {
+            background-color: #e9ecef;
+            min-height: 150px;
+        }
+
+        .video-box {
+            background-color: #6c757d;
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        .footer-bg {
+            background-color: #f8f9fa;
+        }
+
+        .footer-logo {
+            width: 50px;
+            height: 25px;
+            background-color: #8a2be2;
+        }
+
+        .footer-social {
+            background-color: #8a2be2;
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+        }
+
+        .live-question-box {
+            background-color: #f1f3f5;
+            padding: 20px;
+            border-radius: 8px;
+        }
+    </style>
+    <style>
+        .card-upload-area {
+            width: 100%;
+            max-width: 400px;
+            /* Lebar maksimal */
+            margin: auto;
+            aspect-ratio: 1.58 / 1;
+            /* Rasio aspek standar kartu identitas (misal: 85.6mm x 53.98mm) */
+            border: 2px dashed #ced4da;
+            border-radius: 8px;
+            background-color: #f8f9fa;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .card-upload-area:hover {
+            border-color: #007bff;
+            background-color: #e9ecef;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="bg-color-1">
+        <div class="container ">
+            <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom ">
+                <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-light text-decoration-none">
+                    <div class="bumatara-logo me-2"></div>
+                    <span class="fs-4 fw-bold">Bumatara</span>
+                </a>
+                <ul class="nav nav-pills text-light">
+                    <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" style="color: #e9ecef;">Features</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" style="color: #e9ecef;">Pricing</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" style="color: #e9ecef;">FAQs</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" style="color: #e9ecef;">About</a></li>
+                </ul>
+            </header>
+        </div>
+    </div>
+    <!-- Our Product -->
+    <section class="py-5 text-center">
+        <div class="container">
+            <h2 class="mb-4">Our Product</h2>
+            <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+
+                    <!-- Slide 1 -->
+                    <div class="carousel-item active">
+                        <div class="row justify-content-center">
+                            <div class="col-6 col-md-3 mb-3">
+                                <div class="bg-secondary" style="height:150px;"></div>
+                            </div>
+                            <div class="col-6 col-md-3 mb-3">
+                                <div class="bg-secondary" style="height:150px;"></div>
+                            </div>
+                            <div class="col-6 col-md-3 mb-3">
+                                <div class="bg-secondary" style="height:150px;"></div>
+                            </div>
+                            <div class="col-6 col-md-3 mb-3">
+                                <div class="bg-secondary" style="height:150px;"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-6 col-md-3 mb-3">
+                                <div class="bg-secondary" style="height:150px;"></div>
+                            </div>
+                            <div class="col-6 col-md-3 mb-3">
+                                <div class="bg-secondary" style="height:150px;"></div>
+                            </div>
+                            <div class="col-6 col-md-3 mb-3">
+                                <div class="bg-secondary" style="height:150px;"></div>
+                            </div>
+                            <div class="col-6 col-md-3 mb-3">
+                                <div class="bg-secondary" style="height:150px;"></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <!-- Controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#productCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+
+
+            <!-- Button group -->
+            <div class="d-flex flex-wrap justify-content-center gap-2 mt-3">
+                <button class="btn btn-outline-primary">URL Checker</button>
+                <button class="btn btn-outline-primary">Scale Up Back...</button>
+                <button class="btn btn-outline-primary">OCR ID</button>
+                <button class="btn btn-outline-primary">Chat Doc (RAG)</button>
+            </div>
+            <div class="d-flex flex-wrap justify-content-center gap-2 mt-3">
+                <button class="btn btn-outline-primary">URL Checker</button>
+                <button class="btn btn-outline-primary">Scale Up Back...</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- How To Use -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">How To Use Our Product</h2>
+
+            <!-- Row 1 -->
+            <div class="row align-items-center mb-4">
+                <div class="col-md-6">
+                    <h4>How Bumatara Detect Padastian</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi iste corrupti eum voluptas
+                        sapiente non nobis. Molestias pariatur praesentium quo aut, ea rerum ipsum ut? Placeat quibusdam
+                        minima architecto odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum sequi
+                        sunt mollitia quibusdam a consequatur eos tempora inventore qui culpa dolores, voluptates totam
+                        explicabo est incidunt cupiditate unde impedit. Quaerat?</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="bg-secondary" style="height:300px;"></div>
+                </div>
+            </div>
+
+            <!-- Row 2 -->
+            <div class="row align-items-center mb-4">
+                <div class="col-md-6 order-md-2">
+                    <h4>How Bumatara Detect Padastian</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore dolores architecto numquam a
+                        maxime sapiente, laudantium nobis dolor tempore, alias labore. Facere sed temporibus, eum maxime
+                        odio possimus earum sapiente..</p>
+                </div>
+                <div class="col-md-6 order-md-1">
+                    <div class="bg-secondary" style="height:300px;"></div>
+                </div>
+            </div>
+
+            <!-- Row 3 -->
+            <div class="row align-items-center mb-4">
+                <div class="col-md-6">
+                    <h4>How Bumatara Detect Padastian</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, quibusdam, natus sit in officia
+                        accusamus a est, temporibus cupiditate quos nemo. Ratione maxime quis officiis velit officia
+                        expedita fugit magnam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas est neque
+                        ipsa perferendis porro numquam tempore, enim natus aliquid sint soluta culpa deleniti pariatur
+                        fugiat, iusto amet? Veniam, nemo veritatis.</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="bg-secondary" style="height:300px;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <section class="py-5 ">
+        <div class="container">
+            <div class="card-body bg-info bg-opacity-25 p-5 rounded">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <h4>How Bumatara Detect Padastian</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deserunt quo odit assumenda
+                            sed!
+                            Eaque quae iure, placeat maxime accusamus laborum quia qui quas dolor modi, illo quo ea
+                            incidunt!</p>
+                        <form class="d-flex">
+                            <input type="email" class="form-control me-2" placeholder="yourmail@gmail.com">
+                            <button class="btn btn-primary">Dapatkan Penawaran</button>
+                        </form>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="bg-secondary" style="height:300px;"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <footer class="bg-color-1 py-5 mt-5 text-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="d-flex align-items-center mb-2">
+                        <div class="footer-logo me-2"></div>
+                        <span class="fs-4 fw-bold">Bumatara</span>
+                    </div>
+                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="col-lg-6">
+                    <h5 class="fw-bold">Our Social Media</h5>
+                    <div class="d-flex align-items-center mt-3">
+                        <div class="footer-social"></div>
+                        <p class="mb-0 ms-2">Lorem ipsum dolor sit</p>
+                    </div>
+                    <div class="d-flex align-items-center mt-2">
+                        <div class="footer-social"></div>
+                        <p class="mb-0 ms-2">Lorem ipsum dolor sit</p>
+                    </div>
+                    <div class="d-flex align-items-center mt-2">
+                        <div class="footer-social"></div>
+                        <p class="mb-0 ms-2">Lorem ipsum dolor sit</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
