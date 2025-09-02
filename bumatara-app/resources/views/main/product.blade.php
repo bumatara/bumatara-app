@@ -76,84 +76,97 @@
        <!-- How To Use -->
        <section class="py-5">
            <div class="container">
-               <h2 class="text-center mb-5">How To Use Our Product</h2>
+               <h2 class="text-center mb-5 fw-bold">How To Use Our Product</h2>
 
-               <!-- Row 1 -->
-               <div class="row align-items-center mb-4">
+               <!-- Row 1 - Phishing Detection -->
+               <div class="row align-items-center mb-5">
                    <div class="col-md-6">
-                       <h4>How Bumatara Detect Padastian</h4>
-                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi iste corrupti eum voluptas
-                           sapiente non nobis. Molestias pariatur praesentium quo aut, ea rerum ipsum ut? Placeat
-                           quibusdam
-                           minima architecto odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum sequi
-                           sunt mollitia quibusdam a consequatur eos tempora inventore qui culpa dolores, voluptates
-                           totam
-                           explicabo est incidunt cupiditate unde impedit. Quaerat?</p>
+                       <h4 class="fw-bold">Deteksi URL Phishing</h4>
+                       <p>
+                           Bumatara menggunakan kombinasi analisis domain, reputasi sumber data, dan machine learning
+                           untuk mendeteksi potensi phishing link secara real-time. Sistem ini membantu perusahaan
+                           mengurangi risiko serangan siber dan menjaga keamanan data bisnis.
+                       </p>
                    </div>
                    <div class="col-md-6">
-                       <div class="bg-secondary" style="height:300px;"></div>
+                       <div class="bg-secondary d-flex justify-content-center align-items-center text-white"
+                           style="height:300px;">
+                           <span>Gambar / Demo Phishing Detection</span>
+                       </div>
                    </div>
                </div>
 
-               <!-- Row 2 -->
-               <div class="row align-items-center mb-4">
+               <!-- Row 2 - Human Detection -->
+               <div class="row align-items-center mb-5">
                    <div class="col-md-6 order-md-2">
-                       <h4>How Bumatara Detect Padastian</h4>
-                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore dolores architecto numquam
-                           a
-                           maxime sapiente, laudantium nobis dolor tempore, alias labore. Facere sed temporibus, eum
-                           maxime
-                           odio possimus earum sapiente..</p>
+                       <h4 class="fw-bold">Deteksi Kehadiran Manusia</h4>
+                       <p>
+                           Dengan teknologi computer vision dan deep learning, sistem kami mampu mendeteksi keberadaan
+                           manusia dalam video atau gambar. Cocok untuk kebutuhan keamanan, presensi otomatis,
+                           hingga pemantauan area publik.
+                       </p>
                    </div>
                    <div class="col-md-6 order-md-1">
-                       <div class="bg-secondary" style="height:300px;"></div>
+                       <div class="bg-secondary d-flex justify-content-center align-items-center text-white"
+                           style="height:300px;">
+                           <span>Gambar / Demo Human Detection</span>
+                       </div>
                    </div>
                </div>
 
-               <!-- Row 3 -->
-               <div class="row align-items-center mb-4">
+               <!-- Row 3 - OCR & NLP -->
+               <div class="row align-items-center mb-5">
                    <div class="col-md-6">
-                       <h4>How Bumatara Detect Padastian</h4>
-                       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, quibusdam, natus sit in
-                           officia
-                           accusamus a est, temporibus cupiditate quos nemo. Ratione maxime quis officiis velit officia
-                           expedita fugit magnam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas est
-                           neque
-                           ipsa perferendis porro numquam tempore, enim natus aliquid sint soluta culpa deleniti
-                           pariatur
-                           fugiat, iusto amet? Veniam, nemo veritatis.</p>
+                       <h4 class="fw-bold">Analisis Dokumen Otomatis</h4>
+                       <p>
+                           Menggunakan teknologi OCR (Optical Character Recognition) dipadukan dengan NLP (Natural
+                           Language Processing), Bumatara membantu perusahaan mengekstrak, memahami, dan memvalidasi
+                           data dari dokumen fisik maupun digital secara cepat dan akurat.
+                       </p>
                    </div>
                    <div class="col-md-6">
-                       <div class="bg-secondary" style="height:300px;"></div>
+                       <div class="bg-secondary d-flex justify-content-center align-items-center text-white"
+                           style="height:300px;">
+                           <span>Gambar / Demo OCR + NLP</span>
+                       </div>
                    </div>
                </div>
            </div>
        </section>
+
 
        <!-- Footer Section -->
        <section class="py-5 ">
            <div class="container">
                <div class="card-body bg-info bg-opacity-25 p-5 rounded">
                    <div class="row align-items-center">
+                       <!-- Text + Form -->
                        <div class="col-md-6">
-                           <h4>How Bumatara Detect Padastian</h4>
-                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deserunt quo odit
-                               assumenda
-                               sed!
-                               Eaque quae iure, placeat maxime accusamus laborum quia qui quas dolor modi, illo quo ea
-                               incidunt!</p>
-                           <form class="d-flex">
-                               <input type="email" class="form-control me-2" placeholder="yourmail@gmail.com">
+                           <h4 class="fw-bold">Tingkatkan Keamanan dengan Teknologi AI Bumatara</h4>
+                           <p>
+                               Solusi AI kami membantu perusahaan dalam mendeteksi <strong>URL phishing</strong>,
+                               mengenali <strong>aktivitas manusia</strong> dalam area terlarang,
+                               serta berbagai produk <strong>AI security & monitoring</strong> lainnya.
+                               Dapatkan penawaran khusus untuk mengintegrasikan teknologi ini di bisnis Anda.
+                           </p>
+                           <form class="d-flex mt-3">
+                               <input type="email" class="form-control me-2" placeholder="yourmail@gmail.com" required>
                                <button class="btn btn-primary">Dapatkan Penawaran</button>
                            </form>
                        </div>
-                       <div class="col-md-6">
-                           <div class="bg-secondary" style="height:300px;"></div>
+
+                       <!-- Illustration / Image -->
+                       <div class="col-md-6 text-center">
+                           <div
+                               class="bg-white shadow-sm rounded p-4 h-100 d-flex align-items-center justify-content-center">
+                               <img src="assets/images/ai-security.png" alt="AI Security" class="img-fluid"
+                                   style="max-height:250px;">
+                           </div>
                        </div>
                    </div>
                </div>
-
            </div>
        </section>
+
    </main>
    @endsection

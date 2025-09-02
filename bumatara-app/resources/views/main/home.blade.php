@@ -10,10 +10,12 @@
                                <strong>Bumatara.com</strong>
                            </h4>
                        </div>
-                       <h1 class="display-5 fw-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
-                       <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
-                           incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                           exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                       <h1 class="display-5 fw-bold">Solusi AI untuk Efisiensi dan Pertumbuhan Bisnis</h1>
+                       <p class="lead">
+                           Bumatara.com adalah mitra strategis bisnis dalam pemanfaatan AI,
+                           membantu meningkatkan produktivitas, efisiensi, dan membuka peluang inovasi pengembangan
+                           teknologi perusahaan.
+                       </p>
 
                    </div>
                    <div class="col-lg-6">
@@ -258,36 +260,52 @@
                <div class="row">
                    <div class="col-12 text-center mb-4">
                        <h2 class="fw-bold">Kenapa Harus Bumatara.com</h2>
+                       <p class="text-muted">Kami membantu perusahaan menghadirkan solusi AI yang berdampak nyata pada
+                           bisnis.</p>
                    </div>
                </div>
                <div class="row">
                    <div class="col-lg-4 col-md-6 mb-4">
                        <div class="feature-card text-start">
-                           <div class="feature-icon  mb-3"></div>
-                           <h5 class="fw-bold">Lorem ipsum dolor</h5>
-                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt
-                               ut labore et dolore magna aliqua.</p>
+                           <div class="feature-icon mb-3">
+                               <i class="bi bi-graph-up-arrow fs-1 text-primary"></i>
+                           </div>
+                           <h5 class="fw-bold">Meningkatkan Produktivitas</h5>
+                           <p>
+                               Solusi AI kami dirancang untuk mempercepat proses bisnis, mengurangi pekerjaan manual,
+                               dan meningkatkan efisiensi tim Anda.
+                           </p>
                        </div>
                    </div>
                    <div class="col-lg-4 col-md-6 mb-4">
                        <div class="feature-card text-start">
-                           <div class="feature-icon  mb-3"></div>
-                           <h5 class="fw-bold">Lorem ipsum dolor</h5>
-                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt
-                               ut labore et dolore magna aliqua.</p>
+                           <div class="feature-icon mb-3">
+                               <i class="bi bi-shield-check fs-1 text-success"></i>
+                           </div>
+                           <h5 class="fw-bold">Keamanan & Keandalan</h5>
+                           <p>
+                               Dengan infrastruktur yang aman dan terpercaya, kami memastikan data dan sistem bisnis
+                               Anda
+                               terlindungi setiap saat.
+                           </p>
                        </div>
                    </div>
                    <div class="col-lg-4 col-md-6 mb-4">
                        <div class="feature-card text-start">
-                           <div class="feature-icon  mb-3"></div>
-                           <h5 class="fw-bold">Lorem ipsum dolor</h5>
-                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt
-                               ut labore et dolore magna aliqua.</p>
+                           <div class="feature-icon mb-3">
+                               <i class="bi bi-lightbulb fs-1 text-warning"></i>
+                           </div>
+                           <h5 class="fw-bold">Inovasi Berkelanjutan</h5>
+                           <p>
+                               Kami terus mengembangkan teknologi terbaru agar bisnis Anda selalu terdepan dalam
+                               menghadapi perubahan era digital.
+                           </p>
                        </div>
                    </div>
                </div>
            </div>
        </section>
+
 
        <section class="py-5">
            <div class="container">
@@ -309,25 +327,61 @@
        <section class="py-5">
            <div class="container">
                <div class="row">
-                   <!-- Live Question -->
                    <div class="col-lg-6 mb-4 mb-lg-0">
-                       <div class=" shadow-sm  h-100 p-3 border rounded-3  bg-light">
+                       <div class="shadow-sm h-100 p-3 border rounded-3 bg-light">
                            <h5 class="fw-bold mb-3">Live Question</h5>
 
-                           <div class="qna-item p-3 bg-white border rounded">
-                               <p class="fw-semibold mb-2">Apa perbedaan AI, Machine Learning, dan Deep Learning?
-                               </p>
-                               <p class="mb-2">
-                                   AI adalah konsep umum kecerdasan buatan, Machine Learning adalah teknik untuk
-                                   membuat mesin belajar dari data, dan Deep Learning adalah cabang Machine
-                                   Learning
-                                   yang menggunakan jaringan saraf tiruan berlapis-lapis.
-                               </p>
-                               <small class="text-muted">Diajukan oleh: <strong>Rina</strong> • 10 menit
-                                   lalu</small>
+                           <!-- Scrollable QnA -->
+                           <div style="max-height: 300px; overflow-y: auto;" class="mb-3">
+                               <div class="qna-item p-3 mb-2 bg-white border rounded">
+                                   <p class="fw-semibold mb-2">Apa perbedaan AI, Machine Learning, dan Deep Learning?
+                                   </p>
+                                   <p class="mb-2">
+                                       AI adalah konsep umum kecerdasan buatan, Machine Learning adalah teknik untuk
+                                       membuat mesin belajar dari data, dan Deep Learning adalah cabang Machine
+                                       Learning yang menggunakan jaringan saraf tiruan berlapis-lapis.
+                                   </p>
+                                   <small class="text-muted">Diajukan oleh: <strong>Rina</strong> • 10 menit
+                                       lalu</small>
+                               </div>
+
+                               <div class="qna-item p-3 mb-2 bg-white border rounded">
+                                   <p class="fw-semibold mb-2">Bagaimana AI membantu bisnis B2B?</p>
+                                   <p class="mb-2">
+                                       AI dapat mengotomatiskan proses, meningkatkan analisis data, serta membuka
+                                       peluang
+                                       efisiensi dan inovasi di berbagai sektor industri.
+                                   </p>
+                                   <small class="text-muted">Diajukan oleh: <strong>Andi</strong> • 25 menit
+                                       lalu</small>
+                               </div>
+
+                               <div class="qna-item p-3 mb-2 bg-white border rounded">
+                                   <p class="fw-semibold mb-2">Apakah AI membutuhkan data besar?</p>
+                                   <p class="mb-2">
+                                       Tidak selalu. Untuk beberapa kasus, data kecil cukup, tetapi model deep learning
+                                       biasanya membutuhkan data yang lebih besar agar hasilnya optimal.
+                                   </p>
+                                   <small class="text-muted">Diajukan oleh: <strong>Sari</strong> • 1 jam lalu</small>
+                               </div>
                            </div>
+
+                           <!-- Submit Question -->
+                           <form>
+                               <div class="mb-3">
+                                   <label for="nama" class="form-label">Nama</label>
+                                   <input type="text" class="form-control" id="nama" placeholder="Masukkan nama Anda">
+                               </div>
+                               <div class="mb-3">
+                                   <label for="pertanyaan" class="form-label">Pertanyaan</label>
+                                   <textarea class="form-control" id="pertanyaan" rows="3"
+                                       placeholder="Tulis pertanyaan Anda"></textarea>
+                               </div>
+                               <button type="submit" class="btn btn-primary w-100">Kirim Pertanyaan</button>
+                           </form>
                        </div>
                    </div>
+
 
 
                    <!-- QnA -->
