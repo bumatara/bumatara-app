@@ -118,20 +118,27 @@
                     <span class="fs-4 fw-bold">Bumatara</span>
                 </a>
                 <ul class="nav nav-pills text-light">
-                    <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link" style="color: #e9ecef;">Features</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link" style="color: #e9ecef;">Pricing</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link" style="color: #e9ecef;">FAQs</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link" style="color: #e9ecef;">About</a></li>
+                    <li class="nav-item">
+                        <a href="{{ route('home') }}" class="nav-link {{ request()->routeIs('home') ? 'active' : '' }}"
+                            style="color: #e9ecef;">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="{{ route('product') }}"
+                            class="nav-link {{ request()->routeIs('product') ? 'active' : '' }}"
+                            style="color: #e9ecef;">Product</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="{{ route('about') }}"
+                            class="nav-link {{ request()->routeIs('about') ? 'active' : '' }}"
+                            style="color: #e9ecef;">About</a>
+                    </li>
                 </ul>
+
             </header>
         </div>
     </div>
-
-
     @yield('main-panel')
-
-
     <footer class="bg-color-1 py-5 mt-5 text-light">
         <div class="container">
             <div class="row">
