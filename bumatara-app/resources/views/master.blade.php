@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bumatara</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <style>
         .bg-color-1 {
             background-color: #4a2d65;
@@ -33,12 +34,7 @@
             box-shadow: 0 4px 11px rgba(0, 0, 0, 0.2);
         }
 
-        .feature-icon {
-            background-color: #007bff;
-            width: 40px;
-            height: 40px;
-            border-radius: 5px;
-        }
+
 
         .ocr-section {
             background-color: #f1f3f5;
@@ -73,12 +69,7 @@
             background-color: #8a2be2;
         }
 
-        .footer-social {
-            background-color: #8a2be2;
-            width: 20px;
-            height: 20px;
-            margin-right: 5px;
-        }
+
 
         .live-question-box {
             background-color: #f1f3f5;
@@ -144,61 +135,26 @@
             <div class="row">
                 <div class="col-lg-6 mb-4 mb-lg-0">
                     <div class="d-flex align-items-center mb-2">
-                        <div class="footer-logo me-2"></div>
+                        <img alt="Logo Bumatara" src="images/bum-logo-bw.png" style="height: 25px; margin-right: 10px;">
                         <span class="fs-4 fw-bold">Bumatara</span>
                     </div>
-                    <p class="mb-0">Solusi ai berkelanjutan untuk perusahaan.</p>
+                    <p class="mb-0">Unlock Your Business Potential with AI.</p>
                 </div>
                 <div class="col-lg-6 text-white">
                     <h5 class="fw-bold">Our Social Media</h5>
 
-                    <div class="d-flex align-items-center mt-3">
-                        <div class="footer-social">
-                            <i class="bi bi-facebook fs-4 text-primary"></i>
-                        </div>
-                        <p class="mb-0 ms-2">
-                            <a href="https://facebook.com/bumatara" target="_blank"
-                                class="text-decoration-none text-white">
-                                Facebook / Bumatara
-                            </a>
-                        </p>
-                    </div>
-
                     <div class="d-flex align-items-center mt-2">
-                        <div class="footer-social">
-                            <i class="bi bi-twitter-x fs-4 text-white"></i>
-                        </div>
-                        <p class="mb-0 ms-2">
-                            <a href="https://twitter.com/bumatara" target="_blank"
-                                class="text-decoration-none text-white">
-                                Twitter / X
-                            </a>
-                        </p>
-                    </div>
-
-                    <div class="d-flex align-items-center mt-2">
-                        <div class="footer-social">
+                        <div class="">
                             <i class="bi bi-instagram fs-4 text-danger"></i>
                         </div>
                         <p class="mb-0 ms-2">
-                            <a href="https://instagram.com/bumatara" target="_blank"
+                            <a href="https://www.instagram.com/bumatara_ai" target="_blank"
                                 class="text-decoration-none text-white">
                                 Instagram / @bumatara
                             </a>
                         </p>
                     </div>
 
-                    <div class="d-flex align-items-center mt-2">
-                        <div class="footer-social">
-                            <i class="bi bi-linkedin fs-4 text-primary"></i>
-                        </div>
-                        <p class="mb-0 ms-2">
-                            <a href="https://linkedin.com/company/bumatara" target="_blank"
-                                class="text-decoration-none text-white">
-                                LinkedIn / Bumatara
-                            </a>
-                        </p>
-                    </div>
                 </div>
 
             </div>

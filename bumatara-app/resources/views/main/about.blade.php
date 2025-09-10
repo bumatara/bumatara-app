@@ -3,7 +3,6 @@
 
    <main>
 
-       <!-- About Us -->
        <section class="py-5">
            <div class="container">
                <div class="row">
@@ -12,27 +11,16 @@
                    </div>
                    <div class="col-lg-10 col-xl-8 mx-auto">
                        <p class="text-justify">
-                           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
-                           labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                           laboris
-                           nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                           velit
-                           esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                           sunt
-                           in culpa qui officia deserunt mollit anim id est laborum.
+                           Bumatara was founded on July 24, 2025, with a singular focus: to accelerate AI innovation in
+                           Indonesia. Beginning as a competition concept, we quickly evolved into a dynamic platform
+                           showcasing groundbreaking AI projects. Our mission is to propel Indonesia's AI industry
+                           forward by bridging the gap between innovative ideas and real-world application, benefiting
+                           both businesses and daily life.
                        </p>
                        <p class="text-justify">
-                           Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                           laudantium,
-                           totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae
-                           vitae
-                           dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-                           fugit,
-                           sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro
-                           quisquam
-                           est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non
-                           numquam eius
-                           modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+                           We're committed to our vision of a technologically advanced Indonesia. This project is in
+                           active development, continually expanding to support and empower the next generation of AI
+                           creators, all guided by our ambitious timeline.
                        </p>
                    </div>
                </div>
@@ -140,26 +128,25 @@
            </div>
        </section>
 
-       <!-- Contact / CTA -->
        <section class="py-5">
            <div class="container">
                <div class="row justify-content-center">
                    <div class="col-lg-8">
                        <div class="card shadow border-0 rounded-3">
                            <div class="card-body p-5 text-center">
-                               <h3 class="fw-bold mb-3">Lebih Kenal Dengan Kami</h3>
+                               <h3 class="fw-bold mb-3">Stay Connected with Us</h3>
                                <p class="text-muted mb-4">
-                                   Dapatkan proposal penawaran terbaik dari kami. Masukkan email Anda untuk menerima
-                                   informasi eksklusif.
+                                   Receive exclusive information and updates on our innovative projects. Enter your
+                                   email to get our best offers and proposals.
                                </p>
                                <form class="row g-2 justify-content-center">
                                    <div class="col-md-8">
                                        <input type="email" class="form-control form-control-lg"
-                                           placeholder="Masukkan email Anda" required>
+                                           placeholder="Enter your email" required>
                                    </div>
                                    <div class="col-md-4">
                                        <button type="submit" class="btn btn-dark fs-5 btn-lg w-100">
-                                           Dapatkan Penawaran
+                                           Get a Proposal
                                        </button>
                                    </div>
                                </form>
