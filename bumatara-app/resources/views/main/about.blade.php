@@ -55,15 +55,16 @@
                                <div class="p-3 p-md-4">
                                    <div class="row align-items-center">
                                        <div class="col-lg-8 order-2 order-lg-1">
-                                           <p>Rizki adalah seorang visioner dengan pengalaman lebih dari 10
-                                               tahun dalam membangun perusahaan teknologi.
-                                               Fokus utamanya adalah mengembangkan inovasi yang memberikan solusi
-                                               nyata bagi masyarakat.</p>
+                                           <p>Rapid technological advancements demand adjustments in every sector, from
+                                               education to law. Bumatara is a startup poised to be an integral part of
+                                               this change. We are dedicated to contributing to future technology
+                                               solutions, ensuring our role remains relevant in the next 5 to 10 years.
+                                           </p>
                                            <h4 class="fw-bold">Rizki Abdillah</h4>
                                            <h5 class="text-muted">CEO Bumatara</h5>
                                        </div>
                                        <div class="col-lg-4 text-center order-1 order-lg-2 mb-3 mb-lg-0">
-                                           <img src="https://placehold.co/400" class="img-fluid rounded-circle shadow"
+                                           <img src="images/abdi.jpg" class="img-fluid rounded-circle shadow"
                                                alt="Rizki Abdillah">
                                        </div>
                                    </div>
@@ -75,16 +76,18 @@
                                <div class="p-3 p-md-4">
                                    <div class="row align-items-center">
                                        <div class="col-lg-8 order-2 order-lg-1">
-                                           <p>Siti adalah seorang profesional berpengalaman dalam pengelolaan
-                                               proyek teknologi.
-                                               Dengan keahliannya, ia memastikan setiap proyek berjalan sesuai
-                                               rencana dan mencapai target yang ditetapkan.</p>
-                                           <h4 class="fw-bold">Siti Rahmawati</h4>
+                                           <p>The development of Artificial Intelligence is not just a technological
+                                               trend, but a profound journey that is transforming the way we understand
+                                               the world. AI opens up opportunities for broader thinking, presents
+                                               solutions we never imagined before, and leads us to a smarter and more
+                                               meaningful future. I believe that with AI, we will not simply follow
+                                               change, but become part of those shaping it.</p>
+                                           <h4 class="fw-bold">Fariska Ratna Fauziah </h4>
                                            <h5 class="text-muted">Project Manager</h5>
                                        </div>
                                        <div class="col-lg-4 text-center order-1 order-lg-2 mb-3 mb-lg-0">
-                                           <img src="https://placehold.co/400/007BFF/FFFFFF"
-                                               class="img-fluid rounded-circle shadow" alt="Siti Rahmawati">
+                                           <img src="images/Fariska.jpg" class="img-fluid rounded-circle shadow"
+                                               alt="Siti Rahmawati">
                                        </div>
                                    </div>
                                </div>
@@ -99,12 +102,12 @@
                                                pengembangan software.
                                                Ia selalu menghadirkan ide-ide kreatif yang meningkatkan kualitas
                                                produk perusahaan.</p>
-                                           <h4 class="fw-bold">Andi Pratama</h4>
+                                           <h4 class="fw-bold">Malinda Ratnaduhita</h4>
                                            <h5 class="text-muted">CTO</h5>
                                        </div>
                                        <div class="col-lg-4 text-center order-1 order-lg-2 mb-3 mb-lg-0">
-                                           <img src="https://placehold.co/400/28A745/FFFFFF"
-                                               class="img-fluid rounded-circle shadow" alt="Andi Pratama">
+                                           <img src="images/Linda.jpg" class="img-fluid rounded-circle shadow"
+                                               alt="Malinda Ratnaduhita">
                                        </div>
                                    </div>
                                </div>

@@ -141,7 +141,7 @@
                <div class="card-body bg-info bg-opacity-25 p-5 rounded">
                    <div class="row align-items-center">
                        <div class="col-md-6">
-                           <h4 class="fw-bold">Enhance Security with Bumatara's AI Technology</h4>
+                           <h4 class="fw-bold">Powering Tech with Bumatara's AI Solutions</h4>
                            <p>
                                Our AI solutions can help your businesses.
                                Get a special offer to integrate this technology into your business.
@@ -152,11 +152,9 @@
                            </form>
                        </div>
 
-                       <div class="col-md-6 text-center">
-                           <div
-                               class="bg-white shadow-sm rounded p-4 h-100 d-flex align-items-center justify-content-center">
-                               <img src="assets/images/ai-security.png" alt="AI Security" class="img-fluid"
-                                   style="max-height:250px;">
+                       <div class="col-md-6 text-centre">
+                           <div class="bg-white shadow-sm rounded  h-100 d-flex align-content-center">
+                               <img src="images/Banner.png" alt="AI Security" style="max-height:250px;">
                            </div>
                        </div>
                    </div>

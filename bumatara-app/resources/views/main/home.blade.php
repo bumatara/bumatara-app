@@ -28,7 +28,7 @@
            <div class="container">
                <div class="row">
                    <div class="col-12 text-center ">
-                       <h2 class="fw-bold">our main features</h2>
+                       <h2 class="fw-bold">Our main features</h2>
                    </div>
                    <div class=" text-center flex-wrap mt-4 mb-4">
                        <button class="btn btn-outline-secondary me-2 mb-2">URL Checker</button>
@@ -46,170 +46,170 @@
                        <button type="button" data-bs-target="#featureCarousel" data-bs-slide-to="2"
                            aria-label="Slide 3"></button>
                    </div>
-                   <div class="carousel-inner ">
-                       <div class="carousel-item active ">
-                           <div class="row justify-content-center">
-                               <div class="col-lg-12">
-                                   <div class="p-3 m-3 card bg-light p-4 rounded-3 border-0 soft-shadow">
-                                       <div class="row">
-                                           <div class="col-lg-6 order-2 order-lg-2">
-                                               <h3 class="fw-bold">ID Card OCR</h3>
-                                               <div class="card p-3">
-                                                   <div class="row">
-                                                       <div class="col-4 fw-bold text-decoration-underline">Result :
-                                                       </div>
-                                                       <div class="col-8"></div>
-                                                   </div>
-                                                   <div class="row">
-                                                       <div class="col-4 fw-bold">NIK</div>
-                                                       <div class="col-8">3275012304980001</div>
-                                                   </div>
-                                                   <div class="row">
-                                                       <div class="col-4 fw-bold">Name</div>
-                                                       <div class="col-8">BUDI SANTOSO</div>
-                                                   </div>
-                                                   <div class="row">
-                                                       <div class="col-4 fw-bold">Place / Date of Birth</div>
-                                                       <div class="col-8">Jakarta / 23-04-1998</div>
-                                                   </div>
-                                                   <div class="row">
-                                                       <div class="col-4 fw-bold">Gender</div>
-                                                       <div class="col-8">Male</div>
-                                                   </div>
-                                                   <div class="row">
-                                                       <div class="col-4 fw-bold">Address</div>
-                                                       <div class="col-8">Jalan Melati No. 45 RT 003 RW 005</div>
-                                                   </div>
-                                                   <div class="row">
-                                                       <div class="col-4 fw-bold">Sub-district / Village</div>
-                                                       <div class="col-8">Kebon Melati</div>
-                                                   </div>
-                                                   <div class="row">
-                                                       <div class="col-4 fw-bold">District</div>
-                                                       <div class="col-8">Tanah Abang</div>
-                                                   </div>
-                                                   <div class="row">
-                                                       <div class="col-4 fw-bold">Religion</div>
-                                                       <div class="col-8">Islam</div>
-                                                   </div>
-                                                   <div class="row">
-                                                       <div class="col-4 fw-bold">Marital Status</div>
-                                                       <div class="col-8">Single</div>
-                                                   </div>
-                                                   <div class="row">
-                                                       <div class="col-4 fw-bold">Occupation</div>
-                                                       <div class="col-8">Private Sector</div>
-                                                   </div>
-                                                   <div class="row">
-                                                       <div class="col-4 fw-bold">Citizenship</div>
-                                                       <div class="col-8">Indonesian (WNI)</div>
-                                                   </div>
-                                                   <div class="row">
-                                                       <div class="col-4 fw-bold">Valid Until</div>
-                                                       <div class="col-8">LIFETIME</div>
-                                                   </div>
+                   <div class="carousel-inner " ">
+                       <div class=" carousel-item active ">
+                           <div class=" row justify-content-center">
+                       <div class="col-lg-12">
+                           <div class="p-3 m-3 card bg-light p-4 rounded-3 border-0 soft-shadow">
+                               <div class="row">
+                                   <div class="col-lg-6 order-2 order-lg-2">
+                                       <h3 class="fw-bold">ID Card OCR</h3>
+                                       <div class="card p-3">
+                                           <div class="row">
+                                               <div class="col-4 fw-bold text-decoration-underline">Result :
                                                </div>
-
+                                               <div class="col-8"></div>
                                            </div>
-                                           <div class="col-lg-6 order-1 order-lg-1 d-flex flex-column justify-content-center align-items-center"
-                                               style="min-height: 100%;">
-                                               <div class="text-center te">
-                                                   <div
-                                                       class="card-upload-area mb-3 d-flex flex-column justify-content-center align-items-center w-100 p-4">
-                                                       <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100"
-                                                           fill="currentColor" class="bi bi-person-bounding-box"
-                                                           viewBox="0 0 16 16">
-                                                           <path
-                                                               d="M1.5 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 1-1 0v-3A1.5 1.5 0 0 1 1.5 0h3a.5.5 0 0 1 0 1h-3zM11 .5a.5.5 0 0 1 .5-.5h3A1.5 1.5 0 0 1 16 1.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 1-.5-.5zM.5 11a.5.5 0 0 1 .5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 1 0 1h-3A1.5 1.5 0 0 1 0 14.5v-3a.5.5 0 0 1 .5-.5zm15 0a.5.5 0 0 1 .5.5v3a1.5 1.5 0 0 1-1.5 1.5h-3a.5.5 0 0 1 0-1h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 1 .5-.5z" />
-                                                           <path
-                                                               d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm8-9a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
-                                                       </svg>
-                                                       <p class="mt-2 mb-0 text-muted p">Drop your ID card here or click
-                                                           to upload.</p>
-                                                       <input type="file" id="idCardUpload" hidden>
-                                                   </div>
-                                                   <div class="d-flex justify-content-center gap-2 mb-4">
-                                                       <button class="btn btn-primary"
-                                                           onclick="document.getElementById('idCardUpload').click()">Upload
-                                                           Photo</button>
-                                                       <button class="btn btn-success">Start OCR</button>
-                                                   </div>
-                                               </div>
+                                           <div class="row">
+                                               <div class="col-4 fw-bold">NIK</div>
+                                               <div class="col-8">3275012304980001</div>
+                                           </div>
+                                           <div class="row">
+                                               <div class="col-4 fw-bold">Name</div>
+                                               <div class="col-8">BUDI SANTOSO</div>
+                                           </div>
+                                           <div class="row">
+                                               <div class="col-4 fw-bold">Place / Date of Birth</div>
+                                               <div class="col-8">Jakarta / 23-04-1998</div>
+                                           </div>
+                                           <div class="row">
+                                               <div class="col-4 fw-bold">Gender</div>
+                                               <div class="col-8">Male</div>
+                                           </div>
+                                           <div class="row">
+                                               <div class="col-4 fw-bold">Address</div>
+                                               <div class="col-8">Jalan Melati No. 45 RT 003 RW 005</div>
+                                           </div>
+                                           <div class="row">
+                                               <div class="col-4 fw-bold">Sub-district / Village</div>
+                                               <div class="col-8">Kebon Melati</div>
+                                           </div>
+                                           <div class="row">
+                                               <div class="col-4 fw-bold">District</div>
+                                               <div class="col-8">Tanah Abang</div>
+                                           </div>
+                                           <div class="row">
+                                               <div class="col-4 fw-bold">Religion</div>
+                                               <div class="col-8">Islam</div>
+                                           </div>
+                                           <div class="row">
+                                               <div class="col-4 fw-bold">Marital Status</div>
+                                               <div class="col-8">Single</div>
+                                           </div>
+                                           <div class="row">
+                                               <div class="col-4 fw-bold">Occupation</div>
+                                               <div class="col-8">Private Sector</div>
+                                           </div>
+                                           <div class="row">
+                                               <div class="col-4 fw-bold">Citizenship</div>
+                                               <div class="col-8">Indonesian (WNI)</div>
+                                           </div>
+                                           <div class="row">
+                                               <div class="col-4 fw-bold">Valid Until</div>
+                                               <div class="col-8">LIFETIME</div>
                                            </div>
                                        </div>
-
 
                                    </div>
-                               </div>
-                           </div>
-                       </div>
-                       <div class="carousel-item">
-                           <div class="row justify-content-center">
-                               <div class="col-lg-12">
-                                   <div class="p-3 m-3 card bg-light p-4 rounded-3 border-0 soft-shadow">
-
-                                       <div class="text-center mb-1">
-                                           <h3 class="fw-bold">DMARC</h3>
-                                       </div>
-
-                                       <div class="row g-4">
-                                           <div class="col-lg-6">
-                                               <h5 class="fw-bold mb-3">URL Checker</h5>
-                                               <p class="lead">Enter a URL to verify if it's safe or potentially
-                                                   malicious.</p>
-                                               <form id="urlCheckForm">
-                                                   <div class="input-group">
-                                                       <input type="url" id="urlInput" class="form-control"
-                                                           placeholder="Enter URL here" required>
-                                                       <button type="submit" class="btn btn-success">Check</button>
-                                                   </div>
-                                               </form>
+                                   <div class="col-lg-6 order-1 order-lg-1 d-flex flex-column justify-content-center align-items-center"
+                                       style="min-height: 100%;">
+                                       <div class="text-center te">
+                                           <div
+                                               class="card-upload-area mb-3 d-flex flex-column justify-content-center align-items-center w-100 p-4">
+                                               <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100"
+                                                   fill="currentColor" class="bi bi-person-bounding-box"
+                                                   viewBox="0 0 16 16">
+                                                   <path
+                                                       d="M1.5 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 1-1 0v-3A1.5 1.5 0 0 1 1.5 0h3a.5.5 0 0 1 0 1h-3zM11 .5a.5.5 0 0 1 .5-.5h3A1.5 1.5 0 0 1 16 1.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 1-.5-.5zM.5 11a.5.5 0 0 1 .5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 1 0 1h-3A1.5 1.5 0 0 1 0 14.5v-3a.5.5 0 0 1 .5-.5zm15 0a.5.5 0 0 1 .5.5v3a1.5 1.5 0 0 1-1.5 1.5h-3a.5.5 0 0 1 0-1h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 1 .5-.5z" />
+                                                   <path
+                                                       d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm8-9a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                                               </svg>
+                                               <p class="mt-2 mb-0 text-muted p">Drop your ID card here or click
+                                                   to upload.</p>
+                                               <input type="file" id="idCardUpload" hidden>
                                            </div>
-
-                                           <div class="col-lg-6">
-                                               <h5 class="fw-bold mb-3">What is DMARC?</h5>
-                                               <p class="text-muted mb-0">
-                                                   <strong>DMARC (Domain-based Message Authentication, Reporting, and
-                                                       Conformance)</strong> is an email security standard used to
-                                                   prevent email spoofing and phishing attacks.
-                                                   <br><br>
-                                                   DMARC leverages two existing email authentication protocols: <em>SPF
-                                                       (Sender Policy Framework)</em> and <em>DKIM (DomainKeys
-                                                       Identified Mail)</em>. It allows a domain owner to specify how a
-                                                   receiving server should handle emails that fail authentication and to
-                                                   receive reports on their domain's misuse.
-                                               </p>
+                                           <div class="d-flex justify-content-center gap-2 mb-4">
+                                               <button class="btn btn-primary"
+                                                   onclick="document.getElementById('idCardUpload').click()">Upload
+                                                   Photo</button>
+                                               <button class="btn btn-success">Start OCR</button>
                                            </div>
-                                       </div>
-
-                                       <div class="mt-4">
-                                           <h5 class="fw-bold">Scan Results:</h5>
-                                           <textarea id="hasilCheck" class="form-control" rows="5"
-                                               readonly>No results yet. Please enter a URL and click Check.</textarea>
                                        </div>
                                    </div>
                                </div>
+
+
                            </div>
                        </div>
+                   </div>
+               </div>
+               <div class="carousel-item">
+                   <div class="row justify-content-center">
+                       <div class="col-lg-12">
+                           <div class="p-3 m-3 card bg-light p-4 rounded-3 border-0 soft-shadow">
 
-                       <!-- Script JS sederhana (dummy result) -->
-                       <script>
-                           document.getElementById('urlCheckForm').addEventListener('submit', function(e) {
-                               e.preventDefault();
-                               const url = document.getElementById('urlInput').value;
-                               const resultBox = document.getElementById('hasilCheck');
+                               <div class="text-center mb-1">
+                                   <h3 class="fw-bold">DMARC</h3>
+                               </div>
 
-                               // Dummy logic
-                               if (url.includes("https")) {
-                                   resultBox.value = "✅ URL valid & menggunakan HTTPS: " + url;
-                               } else {
-                                   resultBox.value = "⚠️ URL mencurigakan atau tidak menggunakan HTTPS: " + url;
-                               }
-                           });
-                       </script>
+                               <div class="row g-4">
+                                   <div class="col-lg-6">
+                                       <h5 class="fw-bold mb-3">URL Checker</h5>
+                                       <p class="lead">Enter a URL to verify if it's safe or potentially
+                                           malicious.</p>
+                                       <form id="urlCheckForm">
+                                           <div class="input-group">
+                                               <input type="url" id="urlInput" class="form-control"
+                                                   placeholder="Enter URL here" required>
+                                               <button type="submit" class="btn btn-success">Check</button>
+                                           </div>
+                                       </form>
+                                   </div>
+
+                                   <div class="col-lg-6">
+                                       <h5 class="fw-bold mb-3">What is DMARC?</h5>
+                                       <p class="text-muted mb-0">
+                                           <strong>DMARC (Domain-based Message Authentication, Reporting, and
+                                               Conformance)</strong> is an email security standard used to
+                                           prevent email spoofing and phishing attacks.
+                                           <br><br>
+                                           DMARC leverages two existing email authentication protocols: <em>SPF
+                                               (Sender Policy Framework)</em> and <em>DKIM (DomainKeys
+                                               Identified Mail)</em>. It allows a domain owner to specify how a
+                                           receiving server should handle emails that fail authentication and to
+                                           receive reports on their domain's misuse.
+                                       </p>
+                                   </div>
+                               </div>
+
+                               <div class="mt-4">
+                                   <h5 class="fw-bold">Scan Results:</h5>
+                                   <textarea id="hasilCheck" class="form-control" rows="5"
+                                       readonly>No results yet. Please enter a URL and click Check.</textarea>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+
+               <!-- Script JS sederhana (dummy result) -->
+               <script>
+                   document.getElementById('urlCheckForm').addEventListener('submit', function(e) {
+                       e.preventDefault();
+                       const url = document.getElementById('urlInput').value;
+                       const resultBox = document.getElementById('hasilCheck');
+
+                       // Dummy logic
+                       if (url.includes("https")) {
+                           resultBox.value = "✅ URL valid & menggunakan HTTPS: " + url;
+                       } else {
+                           resultBox.value = "⚠️ URL mencurigakan atau tidak menggunakan HTTPS: " + url;
+                       }
+                   });
+               </script>
 
 
-                       <!-- <div class="carousel-item">
+               <!-- <div class="carousel-item">
                            <div class="row justify-content-center">
                                <div class="col-lg-12">
                                    <div class="card bg-light p-4 rounded-3 border-0">
@@ -227,18 +227,16 @@
                                </div>
                            </div>
                        </div> -->
-                   </div>
-                   <button class="carousel-control-prev" type="button" data-bs-target="#featureCarousel"
-                       data-bs-slide="prev">
-                       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                       <span class="visually-hidden">Previous</span>
-                   </button>
-                   <button class="carousel-control-next" type="button" data-bs-target="#featureCarousel"
-                       data-bs-slide="next">
-                       <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                       <span class="visually-hidden">Next</span>
-                   </button>
-               </div>
+           </div>
+           <button class="carousel-control-prev" type="button" data-bs-target="#featureCarousel" data-bs-slide="prev">
+               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+               <span class="visually-hidden">Previous</span>
+           </button>
+           <button class="carousel-control-next" type="button" data-bs-target="#featureCarousel" data-bs-slide="next">
+               <span class="carousel-control-next-icon" aria-hidden="true"></span>
+               <span class="visually-hidden">Next</span>
+           </button>
+           </div>
            </div>
        </section>
 
