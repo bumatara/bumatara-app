@@ -98,10 +98,9 @@
                                <div class="p-3 p-md-4">
                                    <div class="row align-items-center">
                                        <div class="col-lg-8 order-2 order-lg-1">
-                                           <p>Andi adalah pakar teknologi dengan spesialisasi di bidang AI dan
-                                               pengembangan software.
-                                               Ia selalu menghadirkan ide-ide kreatif yang meningkatkan kualitas
-                                               produk perusahaan.</p>
+                                           <p>AI isn’t a trend. It’s a new way to work. We turn raw data into clear
+                                               signals, automate the routine, and ship to production. We measure what
+                                               matters and improve week by week. That’s how Bumatara works.</p>
                                            <h4 class="fw-bold">Malinda Ratnaduhita</h4>
                                            <h5 class="text-muted">CTO</h5>
                                        </div>
