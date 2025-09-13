@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('core_ktp', function (Blueprint $table) {
+        Schema::create('core_ktps', function (Blueprint $table) {
             $table->id(); // PK
             $table->string('nik', 16)->unique();
             $table->string('nama', 100);
@@ -46,6 +46,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('core_ktp');
+        Schema::dropIfExists('core_ktps');
     }
 };
