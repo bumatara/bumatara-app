@@ -98,19 +98,18 @@
 
                <div class="row align-items-center mb-5">
                    <div class="col-md-6 order-md-2">
-                       <h4 class="fw-bold">Human Presence Detection</h4>
+                       <h4 class="fw-bold">Object Detection</h4>
                        <p>
-                           Using computer vision and deep learning technology, our system is capable of detecting human
-                           presence in videos or images. It's ideal for security needs, automatic attendance, and public
-                           area
-                           monitoring.
+                           Using computer vision and deep learning technology, our system can detect various objects in
+                           images or videos
+                           in real time. It is ideal for data analysis, process automation, security systems, and public
+                           area monitoring.
                        </p>
+
                    </div>
-                   <div class="col-md-6 order-md-1">
-                       <div class="bg-secondary d-flex justify-content-center align-items-center text-white"
-                           style="height:300px;">
-                           <span>Human Detection Image / Demo</span>
-                       </div>
+                   <div class="col-md-6 order-md-1 shadow">
+                       <img src="images/product/cv.jpg" style="height:300px;" alt="Object Detection">
+
                    </div>
                </div>
 

@@ -191,6 +191,86 @@
                        </div>
                    </div>
                </div>
+               <div class="carousel-item">
+                   <div class="row justify-content-center">
+                       <div class="col-lg-12">
+                           <div class="p-3 m-3 card bg-light p-4 rounded-3 border-0 soft-shadow">
+
+                               <div class="text-center mb-1">
+                                   <h3 class="fw-bold">QR Code Generator</h3>
+                               </div>
+
+                               <div class="row g-4">
+                                   <!-- Input QR Code -->
+                                   <div class="col-lg-6">
+                                       <h5 class="fw-bold mb-3">Create QR Code</h5>
+                                       <p class="lead">Enter text, URL, or any information to generate a QR Code
+                                           instantly.</p>
+                                       <form id="qrForm">
+                                           <div class="input-group">
+                                               <input type="text" id="qrInput" class="form-control"
+                                                   placeholder="Enter text or URL here" required>
+                                               <button type="submit" class="btn btn-success">Generate</button>
+                                           </div>
+                                       </form>
+                                   </div>
+
+                                   <!-- Penjelasan -->
+                                   <div class="col-lg-6">
+                                       <h5 class="fw-bold mb-3">What is a QR Code?</h5>
+                                       <p class="text-muted mb-0">
+                                           A <strong>QR Code (Quick Response Code)</strong> is a type of matrix barcode
+                                           that can store
+                                           information such as URLs, text, or contact data. It can be scanned by most
+                                           smartphone cameras
+                                           and QR reader apps, making it ideal for sharing information quickly.
+                                       </p>
+                                   </div>
+                               </div>
+
+                               <!-- Hasil QR Code -->
+                               <div class="mt-4 text-center">
+                                   <h5 class="fw-bold">Generated QR Code:</h5>
+                                   <canvas id="qrCanvas"
+                                       class="border rounded-3 p-2 bg-white d-block mx-auto mt-3"></canvas>
+                                   <button id="downloadBtn" class="btn btn-primary mt-3" style="display:none;">
+                                       <i class="bi bi-download"></i> Download QR Code
+                                   </button>
+                               </div>
+                           </div>
+                       </div>
+
+                       <script>
+                           const qrForm = document.getElementById("qrForm");
+                           const qrInput = document.getElementById("qrInput");
+                           const qrCanvas = document.getElementById("qrCanvas");
+                           const downloadBtn = document.getElementById("downloadBtn");
+
+                           const qr = new QRious({
+                               element: qrCanvas,
+                               size: 200,
+                               value: ''
+                           });
+
+                           qrForm.addEventListener("submit", function(e) {
+                               e.preventDefault();
+                               const text = qrInput.value.trim();
+                               if (text) {
+                                   qr.value = text;
+                                   downloadBtn.style.display = "inline-block";
+                               }
+                           });
+
+                           downloadBtn.addEventListener("click", function() {
+                               const link = document.createElement("a");
+                               link.href = qrCanvas.toDataURL("image/png");
+                               link.download = "qrcode.png";
+                               link.click();
+                           });
+                       </script>
+
+                   </div>
+               </div>
 
                <!-- Script JS sederhana (dummy result) -->
                <script>
@@ -209,24 +289,6 @@
                </script>
 
 
-               <!-- <div class="carousel-item">
-                           <div class="row justify-content-center">
-                               <div class="col-lg-12">
-                                   <div class="card bg-light p-4 rounded-3 border-0">
-                                       <div class="text-center">
-                                           <div class="mx-auto mb-4"
-                                               style="width: 80px; height: 80px; background-color: #ffc107; border-radius: 8px;">
-                                           </div>
-                                           <h3 class="fw-bold">Fitur 3: Consectetur Adipiscing</h3>
-                                           <p class="lead">Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                               laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                                               in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                               pariatur.</p>
-                                       </div>
-                                   </div>
-                               </div>
-                           </div>
-                       </div> -->
            </div>
            <button class="carousel-control-prev" type="button" data-bs-target="#featureCarousel" data-bs-slide="prev">
                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
