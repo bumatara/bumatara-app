@@ -5,12 +5,16 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\QuestionController;
 
 Route::get('/', function () {
-    return view('main.home');
+    return view('main.home_1');
 })->name('home');
 
 Route::get('/about', function () {
     return view('main.about');
 })->name('about');
+
+Route::get('/edukasi', function () {
+    return view('main.edukasi');
+})->name('edukasi');
 
 Route::get('/product', function () {
     return view('main.product');

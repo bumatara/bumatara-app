@@ -116,6 +116,11 @@
                             style="color: #e9ecef;">Home</a>
                     </li>
                     <li class="nav-item">
+                        <a href="{{ route('edukasi') }}"
+                            class="nav-link {{ request()->routeIs('edukasi') ? 'active' : '' }}"
+                            style="color: #e9ecef;">Education</a>
+                    </li>
+                    <li class="nav-item">
                         <a href="{{ route('product') }}"
                             class="nav-link {{ request()->routeIs('product') ? 'active' : '' }}"
                             style="color: #e9ecef;">Product</a>
@@ -140,7 +145,7 @@
                         <img alt="Logo Bumatara" src="images/bum-logo-bw.png" style="height: 25px; margin-right: 10px;">
                         <span class="fs-4 fw-bold">Bumatara</span>
                     </div>
-                    <p class="mb-0">Unlock Your Business Potential with AI.</p>
+                    <p class="mb-0">Unlock Your Potential with AI.</p>
                 </div>
                 <div class="col-lg-6 text-white">
                     <h5 class="fw-bold">Our Social Media</h5>
