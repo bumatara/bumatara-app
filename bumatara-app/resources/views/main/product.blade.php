@@ -63,7 +63,10 @@
                <div class="d-flex flex-wrap justify-content-center gap-2 mt-3">
                    <button class="btn btn-outline-primary">URL Checker</button>
                    <button class="btn btn-outline-primary">Scale Up Back...</button>
-                   <button class="btn btn-outline-primary">OCR ID</button>
+                   <a href="{{ route('ocr_ktp') }}" class="btn btn-outline-primary">
+                       OCR ID
+                   </a>
+
                    <button class="btn btn-outline-primary">Chat Doc (RAG)</button>
                </div>
                <div class="d-flex flex-wrap justify-content-center gap-2 mt-3">
@@ -88,10 +91,10 @@
                            cyber attacks and safeguard business data.
                        </p>
                    </div>
-                   <div class="col-md-6">
-                       <div class="bg-secondary d-flex justify-content-center align-items-center text-white"
-                           style="height:300px;">
-                           <span>Phishing Detection Image / Demo</span>
+                   <div class="col-md-6 shadow">
+                       <img src="images/product/DMRC.jpg" style="height:300px;" alt="Object Detection">
+                       <div class=" d-flex justify-content-center align-items-center text-white">
+                           <!-- <span>Phishing Detection Image / Demo</span> -->
                        </div>
                    </div>
                </div>

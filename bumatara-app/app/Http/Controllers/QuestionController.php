@@ -24,9 +24,16 @@ class QuestionController extends Controller
             'create_user' => auth()->user()->name ?? 'guest',
             'ip_address'  => $request->ip(),
             'device_info' => $request->header('User-Agent'),
-            'active_sts'  => true
+            'active_sts'  => false
         ]);
 
         return redirect()->back()->with('success', 'Pertanyaan berhasil dikirim!');
+    }
+
+    public function index()
+    {
+        $d_question = Question::getActiveQuestion();
+
+        return view('main.home', compact('d_question'));
     }
 }

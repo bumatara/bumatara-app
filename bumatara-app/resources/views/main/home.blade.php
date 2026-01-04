@@ -1,6 +1,11 @@
    @extends('master')
    @section('main-panel')
    <main>
+
+       <!-- @php
+       var_dump($d_question);
+       @endphp -->
+
        <section class="py-5">
            <div class="container">
                <div class="row align-items-center">
@@ -10,7 +15,7 @@
                                <strong>Bumatara.com</strong>
                            </h4>
                        </div>
-                       <h1 class="display-5 fw-bold">Unlock Your Business Potential with AI</h1>
+                       <h1 class="display-5 fw-bold">Unlock Your Potential with AI</h1>
                        <p class="lead">
                            Bumatara.com provides the AI solutions you need to boost productivity, increase efficiency,
                            and pioneer new paths for innovation and company-wide growth.
@@ -378,17 +383,16 @@
                            <h5 class="fw-bold mb-3">Live Q&A</h5>
 
                            <div style="max-height: 300px; overflow-y: auto;" class="mb-3">
+                               @foreach ($d_question as $row)
                                <div class="qna-item p-3 mb-2 bg-white border rounded">
-                                   <p class="fw-semibold mb-2">What is the difference between AI, Machine Learning, and
-                                       Deep Learning?</p>
+                                   <p class="fw-semibold mb-2">{{$row -> question}}</p>
                                    <p class="mb-2">
-                                       AI is the general concept of artificial intelligence, Machine Learning is a
-                                       technique for machines to learn from data, and Deep Learning is a branch of
-                                       Machine Learning that uses multi-layered neural networks.
+                                       {{$row -> answer}}
                                    </p>
-                                   <small class="text-muted">Asked by: <strong>Rina</strong> • 10 minutes ago</small>
+                                   <small class="text-muted">Asked by: <strong>{{$row -> name}}</strong> •
+                                       {{$row -> time_ago_day}} days ago</small>
                                </div>
-
+                               @endforeach
                                <div class="qna-item p-3 mb-2 bg-white border rounded">
                                    <p class="fw-semibold mb-2">How can AI help B2B businesses?</p>
                                    <p class="mb-2">

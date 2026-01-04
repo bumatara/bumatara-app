@@ -41,6 +41,7 @@ return new class extends Migration {
         Schema::create('prm_core', function (Blueprint $table) {
             $table->id();
             $table->string('parameter');
+            $table->integer('value')->nullable();
             $table->text('content')->nullable();
             $table->boolean('sts_delete')->default(0);
             $table->timestamps();

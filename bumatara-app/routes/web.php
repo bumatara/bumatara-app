@@ -4,9 +4,12 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\QuestionController;
 
-Route::get('/', function () {
-    return view('main.home_1');
-})->name('home');
+
+
+Route::get(
+    '/',
+    [QuestionController::class, 'index']
+)->name('home');
 
 Route::get('/about', function () {
     return view('main.about');
@@ -21,9 +24,14 @@ Route::get('/product', function () {
 })->name('product');
 
 Route::get('/trial-ocr', function () {
-    return view('ocr_ktp.home');
+    return view('produk.ocr');
 })->name('ocr_ktp');
 
+
+//Dashboard Admin
+Route::get('/dashoboard', function () {
+    return view('dashboard.main');
+})->name('dashoboard');
 
 
 // Metode send data

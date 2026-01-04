@@ -1,6 +1,11 @@
    @extends('master')
    @section('main-panel')
    <main>
+
+       @php
+       var_dump($data);
+       @endphp
+
        <section class="py-5">
            <div class="container">
                <div class="row align-items-center">

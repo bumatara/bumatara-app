@@ -27,15 +27,9 @@
                <div class="col-lg-9 col-md-8">
                    <!-- FILTER -->
                    <div class="d-flex flex-wrap gap-2 mb-3 align-items-center">
-                       <input type="text" class="form-control form-control-sm w-50" placeholder="Cari judul video...">
+                       <input type="text" class="form-control form-control-sm " placeholder="Cari judul video...">
 
-                       <select class="form-select form-select-sm w-auto">
-                           <option>Semua Playlist</option>
-                           <option>Kelas 10</option>
-                           <option>Kelas 11</option>
-                           <option>Kelas 12</option>
-                           <option>Guru</option>
-                       </select>
+
                    </div>
 
                    <!-- GRID VIDEO -->
