@@ -17,8 +17,8 @@
                        </div>
                        <h1 class="display-5 fw-bold">Unlock Your Potential with AI</h1>
                        <p class="lead">
-                           Bumatara.com provides the AI solutions you need to boost productivity, increase efficiency,
-                           and pioneer new paths for innovation and company-wide growth.
+                           Belajar Mengguanakan Serta membuat AI, untuk memperluas ekosistem pengguna dan pembuatan AI
+                           untuk masyarakat Indonesia.
                        </p>
                    </div>
                    <div class="col-lg-6">
@@ -33,7 +33,7 @@
            <div class="container">
                <div class="row">
                    <div class="col-12 text-center ">
-                       <h2 class="fw-bold">Our main features</h2>
+                       <h2 class="fw-bold">Hal Yang Bisa Kita Buat</h2>
                    </div>
                    <div class=" text-center flex-wrap mt-4 mb-4">
                        <button class="btn btn-outline-secondary me-2 mb-2">URL Checker</button>
@@ -42,256 +42,175 @@
                        <button class="btn btn-outline-secondary mb-2">Chet Doc (RAG)</button>
                    </div>
                </div>
-               <div id="featureCarousel" class="carousel slide">
-                   <div class="carousel-indicators">
-                       <button type="button" data-bs-target="#featureCarousel" data-bs-slide-to="0" class="active"
-                           aria-current="true" aria-label="Slide 1"></button>
-                       <button type="button" data-bs-target="#featureCarousel" data-bs-slide-to="1"
-                           aria-label="Slide 2"></button>
-                       <button type="button" data-bs-target="#featureCarousel" data-bs-slide-to="2"
-                           aria-label="Slide 3"></button>
+               <div class="container my-4">
+                   <div class="d-flex flex-row flex-nowrap overflow-auto gap-3 pb-3" style="scrollbar-width: none;">
+                       <div class="card border-0 shadow-sm" style="min-width: 280px; max-width: 280px;">
+                           <div class="position-relative">
+                               <img src="https://placehold.co/280x157" class="card-img-top rounded-3"
+                                   alt="Video Thumbnail">
+                               <span
+                                   class="position-absolute bottom-0 end-0 bg-dark text-white px-1 py-0.5 m-2 rounded small fw-semibold">12:35</span>
+                           </div>
+                           <div class="card-body px-2 pt-3 pb-2">
+                               <h5 class="card-title fs-6 fw-bold text-truncate" title="Judul Video YouTube Pertama">
+                                   Judul Video YouTube Pertama</h5>
+                               <p class="card-text text-muted small mb-3">Deskripsi singkat atau nama channel</p>
+                               <div class="d-grid">
+                                   <a href="#" class="btn btn-outline-danger btn-sm">View</a>
+                               </div>
+                           </div>
+                       </div>
+
+                       <div class="card border-0 shadow-sm" style="min-width: 280px; max-width: 280px;">
+                           <div class="position-relative">
+                               <img src="https://placehold.co/280x157" class="card-img-top rounded-3"
+                                   alt="Video Thumbnail">
+                               <span
+                                   class="position-absolute bottom-0 end-0 bg-dark text-white px-1 py-0.5 m-2 rounded small fw-semibold">08:14</span>
+                           </div>
+                           <div class="card-body px-2 pt-3 pb-2">
+                               <h5 class="card-title fs-6 fw-bold text-truncate" title="Judul Video YouTube Kedua">Judul
+                                   Video YouTube Kedua</h5>
+                               <p class="card-text text-muted small mb-3">Deskripsi singkat atau nama channel</p>
+                               <div class="d-grid">
+                                   <a href="#" class="btn btn-outline-danger btn-sm">View</a>
+                               </div>
+                           </div>
+                       </div>
+
+                       <div class="card border-0 shadow-sm" style="min-width: 280px; max-width: 280px;">
+                           <div class="position-relative">
+                               <img src="https://placehold.co/280x157" class="card-img-top rounded-3"
+                                   alt="Video Thumbnail">
+                               <span
+                                   class="position-absolute bottom-0 end-0 bg-dark text-white px-1 py-0.5 m-2 rounded small fw-semibold">14:50</span>
+                           </div>
+                           <div class="card-body px-2 pt-3 pb-2">
+                               <h5 class="card-title fs-6 fw-bold text-truncate" title="Judul Video YouTube Ketiga">
+                                   Judul Video YouTube Ketiga</h5>
+                               <p class="card-text text-muted small mb-3">Deskripsi singkat atau nama channel</p>
+                               <div class="d-grid">
+                                   <a href="#" class="btn btn-outline-danger btn-sm">View</a>
+                               </div>
+                           </div>
+                       </div>
+
+                       <div class="card border-0 shadow-sm" style="min-width: 280px; max-width: 280px;">
+                           <div class="position-relative">
+                               <img src="https://placehold.co/280x157" class="card-img-top rounded-3"
+                                   alt="Video Thumbnail">
+                               <span
+                                   class="position-absolute bottom-0 end-0 bg-dark text-white px-1 py-0.5 m-2 rounded small fw-semibold">22:05</span>
+                           </div>
+                           <div class="card-body px-2 pt-3 pb-2">
+                               <h5 class="card-title fs-6 fw-bold text-truncate" title="Judul Video YouTube Keempat">
+                                   Judul Video YouTube Keempat</h5>
+                               <p class="card-text text-muted small mb-3">Deskripsi singkat atau nama channel</p>
+                               <div class="d-grid">
+                                   <a href="#" class="btn btn-outline-danger btn-sm">View</a>
+                               </div>
+                           </div>
+                       </div>
                    </div>
-                   <div class="carousel-inner " ">
-                       <div class=" carousel-item active ">
-                           <div class=" row justify-content-center">
-                       <div class="col-lg-12">
-                           <div class="p-3 m-3 card bg-light p-4 rounded-3 border-0 soft-shadow">
-                               <div class="row">
-                                   <div class="col-lg-6 order-2 order-lg-2">
-                                       <h3 class="fw-bold">ID Card OCR</h3>
-                                       <div class="card p-3">
-                                           <div class="row">
-                                               <div class="col-4 fw-bold text-decoration-underline">Result :
-                                               </div>
-                                               <div class="col-8"></div>
-                                           </div>
-                                           <div class="row">
-                                               <div class="col-4 fw-bold">NIK</div>
-                                               <div class="col-8">3275012304980001</div>
-                                           </div>
-                                           <div class="row">
-                                               <div class="col-4 fw-bold">Name</div>
-                                               <div class="col-8">BUDI SANTOSO</div>
-                                           </div>
-                                           <div class="row">
-                                               <div class="col-4 fw-bold">Place / Date of Birth</div>
-                                               <div class="col-8">Jakarta / 23-04-1998</div>
-                                           </div>
-                                           <div class="row">
-                                               <div class="col-4 fw-bold">Gender</div>
-                                               <div class="col-8">Male</div>
-                                           </div>
-                                           <div class="row">
-                                               <div class="col-4 fw-bold">Address</div>
-                                               <div class="col-8">Jalan Melati No. 45 RT 003 RW 005</div>
-                                           </div>
-                                           <div class="row">
-                                               <div class="col-4 fw-bold">Sub-district / Village</div>
-                                               <div class="col-8">Kebon Melati</div>
-                                           </div>
-                                           <div class="row">
-                                               <div class="col-4 fw-bold">District</div>
-                                               <div class="col-8">Tanah Abang</div>
-                                           </div>
-                                           <div class="row">
-                                               <div class="col-4 fw-bold">Religion</div>
-                                               <div class="col-8">Islam</div>
-                                           </div>
-                                           <div class="row">
-                                               <div class="col-4 fw-bold">Marital Status</div>
-                                               <div class="col-8">Single</div>
-                                           </div>
-                                           <div class="row">
-                                               <div class="col-4 fw-bold">Occupation</div>
-                                               <div class="col-8">Private Sector</div>
-                                           </div>
-                                           <div class="row">
-                                               <div class="col-4 fw-bold">Citizenship</div>
-                                               <div class="col-8">Indonesian (WNI)</div>
-                                           </div>
-                                           <div class="row">
-                                               <div class="col-4 fw-bold">Valid Until</div>
-                                               <div class="col-8">LIFETIME</div>
-                                           </div>
+               </div>
+           </div>
+
+           <div class="carousel-item">
+               <div class="row justify-content-center">
+                   <div class="col-lg-12">
+                       <div class="p-3 m-3 card bg-light p-4 rounded-3 border-0 soft-shadow">
+
+                           <div class="text-center mb-1">
+                               <h3 class="fw-bold">QR Code Generator</h3>
+                           </div>
+
+                           <div class="row g-4">
+                               <!-- Input QR Code -->
+                               <div class="col-lg-6">
+                                   <h5 class="fw-bold mb-3">Create QR Code</h5>
+                                   <p class="lead">Enter text, URL, or any information to generate a QR Code
+                                       instantly.</p>
+                                   <form id="qrForm">
+                                       <div class="input-group">
+                                           <input type="text" id="qrInput" class="form-control"
+                                               placeholder="Enter text or URL here" required>
+                                           <button type="submit" class="btn btn-success">Generate</button>
                                        </div>
-
-                                   </div>
-                                   <div class="col-lg-6 order-1 order-lg-1 d-flex flex-column justify-content-center align-items-center"
-                                       style="min-height: 100%;">
-                                       <div class="text-center te">
-                                           <div
-                                               class="card-upload-area mb-3 d-flex flex-column justify-content-center align-items-center w-100 p-4">
-                                               <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100"
-                                                   fill="currentColor" class="bi bi-person-bounding-box"
-                                                   viewBox="0 0 16 16">
-                                                   <path
-                                                       d="M1.5 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 1-1 0v-3A1.5 1.5 0 0 1 1.5 0h3a.5.5 0 0 1 0 1h-3zM11 .5a.5.5 0 0 1 .5-.5h3A1.5 1.5 0 0 1 16 1.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 1-.5-.5zM.5 11a.5.5 0 0 1 .5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 1 0 1h-3A1.5 1.5 0 0 1 0 14.5v-3a.5.5 0 0 1 .5-.5zm15 0a.5.5 0 0 1 .5.5v3a1.5 1.5 0 0 1-1.5 1.5h-3a.5.5 0 0 1 0-1h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 1 .5-.5z" />
-                                                   <path
-                                                       d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm8-9a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
-                                               </svg>
-                                               <p class="mt-2 mb-0 text-muted p">Drop your ID card here or click
-                                                   to upload.</p>
-                                               <input type="file" id="idCardUpload" hidden>
-                                           </div>
-                                           <div class="d-flex justify-content-center gap-2 mb-4">
-                                               <button class="btn btn-primary"
-                                                   onclick="document.getElementById('idCardUpload').click()">Upload
-                                                   Photo</button>
-                                               <button class="btn btn-success">Start OCR</button>
-                                           </div>
-                                       </div>
-                                   </div>
+                                   </form>
                                </div>
 
+                               <!-- Penjelasan -->
+                               <div class="col-lg-6">
+                                   <h5 class="fw-bold mb-3">What is a QR Code?</h5>
+                                   <p class="text-muted mb-0">
+                                       A <strong>QR Code (Quick Response Code)</strong> is a type of matrix barcode
+                                       that can store
+                                       information such as URLs, text, or contact data. It can be scanned by most
+                                       smartphone cameras
+                                       and QR reader apps, making it ideal for sharing information quickly.
+                                   </p>
+                               </div>
+                           </div>
 
+                           <!-- Hasil QR Code -->
+                           <div class="mt-4 text-center">
+                               <h5 class="fw-bold">Generated QR Code:</h5>
+                               <canvas id="qrCanvas"
+                                   class="border rounded-3 p-2 bg-white d-block mx-auto mt-3"></canvas>
+                               <button id="downloadBtn" class="btn btn-primary mt-3" style="display:none;">
+                                   <i class="bi bi-download"></i> Download QR Code
+                               </button>
                            </div>
                        </div>
                    </div>
+
+                   <script>
+                       const qrForm = document.getElementById("qrForm");
+                       const qrInput = document.getElementById("qrInput");
+                       const qrCanvas = document.getElementById("qrCanvas");
+                       const downloadBtn = document.getElementById("downloadBtn");
+
+                       const qr = new QRious({
+                           element: qrCanvas,
+                           size: 200,
+                           value: ''
+                       });
+
+                       qrForm.addEventListener("submit", function(e) {
+                           e.preventDefault();
+                           const text = qrInput.value.trim();
+                           if (text) {
+                               qr.value = text;
+                               downloadBtn.style.display = "inline-block";
+                           }
+                       });
+
+                       downloadBtn.addEventListener("click", function() {
+                           const link = document.createElement("a");
+                           link.href = qrCanvas.toDataURL("image/png");
+                           link.download = "qrcode.png";
+                           link.click();
+                       });
+                   </script>
+
                </div>
-               <div class="carousel-item">
-                   <div class="row justify-content-center">
-                       <div class="col-lg-12">
-                           <div class="p-3 m-3 card bg-light p-4 rounded-3 border-0 soft-shadow">
+           </div>
 
-                               <div class="text-center mb-1">
-                                   <h3 class="fw-bold">DMARC</h3>
-                               </div>
+           <!-- Script JS sederhana (dummy result) -->
+           <script>
+               document.getElementById('urlCheckForm').addEventListener('submit', function(e) {
+                   e.preventDefault();
+                   const url = document.getElementById('urlInput').value;
+                   const resultBox = document.getElementById('hasilCheck');
 
-                               <div class="row g-4">
-                                   <div class="col-lg-6">
-                                       <h5 class="fw-bold mb-3">URL Checker</h5>
-                                       <p class="lead">Enter a URL to verify if it's safe or potentially
-                                           malicious.</p>
-                                       <form id="urlCheckForm">
-                                           <div class="input-group">
-                                               <input type="url" id="urlInput" class="form-control"
-                                                   placeholder="Enter URL here" required>
-                                               <button type="submit" class="btn btn-success">Check</button>
-                                           </div>
-                                       </form>
-                                   </div>
-
-                                   <div class="col-lg-6">
-                                       <h5 class="fw-bold mb-3">What is DMARC?</h5>
-                                       <p class="text-muted mb-0">
-                                           <strong>DMARC (Domain-based Message Authentication, Reporting, and
-                                               Conformance)</strong> is an email security standard used to
-                                           prevent email spoofing and phishing attacks.
-                                           <br><br>
-                                           DMARC leverages two existing email authentication protocols: <em>SPF
-                                               (Sender Policy Framework)</em> and <em>DKIM (DomainKeys
-                                               Identified Mail)</em>. It allows a domain owner to specify how a
-                                           receiving server should handle emails that fail authentication and to
-                                           receive reports on their domain's misuse.
-                                       </p>
-                                   </div>
-                               </div>
-
-                               <div class="mt-4">
-                                   <h5 class="fw-bold">Scan Results:</h5>
-                                   <textarea id="hasilCheck" class="form-control" rows="5"
-                                       readonly>No results yet. Please enter a URL and click Check.</textarea>
-                               </div>
-                           </div>
-                       </div>
-                   </div>
-               </div>
-               <div class="carousel-item">
-                   <div class="row justify-content-center">
-                       <div class="col-lg-12">
-                           <div class="p-3 m-3 card bg-light p-4 rounded-3 border-0 soft-shadow">
-
-                               <div class="text-center mb-1">
-                                   <h3 class="fw-bold">QR Code Generator</h3>
-                               </div>
-
-                               <div class="row g-4">
-                                   <!-- Input QR Code -->
-                                   <div class="col-lg-6">
-                                       <h5 class="fw-bold mb-3">Create QR Code</h5>
-                                       <p class="lead">Enter text, URL, or any information to generate a QR Code
-                                           instantly.</p>
-                                       <form id="qrForm">
-                                           <div class="input-group">
-                                               <input type="text" id="qrInput" class="form-control"
-                                                   placeholder="Enter text or URL here" required>
-                                               <button type="submit" class="btn btn-success">Generate</button>
-                                           </div>
-                                       </form>
-                                   </div>
-
-                                   <!-- Penjelasan -->
-                                   <div class="col-lg-6">
-                                       <h5 class="fw-bold mb-3">What is a QR Code?</h5>
-                                       <p class="text-muted mb-0">
-                                           A <strong>QR Code (Quick Response Code)</strong> is a type of matrix barcode
-                                           that can store
-                                           information such as URLs, text, or contact data. It can be scanned by most
-                                           smartphone cameras
-                                           and QR reader apps, making it ideal for sharing information quickly.
-                                       </p>
-                                   </div>
-                               </div>
-
-                               <!-- Hasil QR Code -->
-                               <div class="mt-4 text-center">
-                                   <h5 class="fw-bold">Generated QR Code:</h5>
-                                   <canvas id="qrCanvas"
-                                       class="border rounded-3 p-2 bg-white d-block mx-auto mt-3"></canvas>
-                                   <button id="downloadBtn" class="btn btn-primary mt-3" style="display:none;">
-                                       <i class="bi bi-download"></i> Download QR Code
-                                   </button>
-                               </div>
-                           </div>
-                       </div>
-
-                       <script>
-                           const qrForm = document.getElementById("qrForm");
-                           const qrInput = document.getElementById("qrInput");
-                           const qrCanvas = document.getElementById("qrCanvas");
-                           const downloadBtn = document.getElementById("downloadBtn");
-
-                           const qr = new QRious({
-                               element: qrCanvas,
-                               size: 200,
-                               value: ''
-                           });
-
-                           qrForm.addEventListener("submit", function(e) {
-                               e.preventDefault();
-                               const text = qrInput.value.trim();
-                               if (text) {
-                                   qr.value = text;
-                                   downloadBtn.style.display = "inline-block";
-                               }
-                           });
-
-                           downloadBtn.addEventListener("click", function() {
-                               const link = document.createElement("a");
-                               link.href = qrCanvas.toDataURL("image/png");
-                               link.download = "qrcode.png";
-                               link.click();
-                           });
-                       </script>
-
-                   </div>
-               </div>
-
-               <!-- Script JS sederhana (dummy result) -->
-               <script>
-                   document.getElementById('urlCheckForm').addEventListener('submit', function(e) {
-                       e.preventDefault();
-                       const url = document.getElementById('urlInput').value;
-                       const resultBox = document.getElementById('hasilCheck');
-
-                       // Dummy logic
-                       if (url.includes("https")) {
-                           resultBox.value = "✅ URL valid & menggunakan HTTPS: " + url;
-                       } else {
-                           resultBox.value = "⚠️ URL mencurigakan atau tidak menggunakan HTTPS: " + url;
-                       }
-                   });
-               </script>
+                   // Dummy logic
+                   if (url.includes("https")) {
+                       resultBox.value = "✅ URL valid & menggunakan HTTPS: " + url;
+                   } else {
+                       resultBox.value = "⚠️ URL mencurigakan atau tidak menggunakan HTTPS: " + url;
+                   }
+               });
+           </script>
 
 
            </div>
@@ -310,46 +229,47 @@
        <section class="py-5">
            <div class="container">
                <div class="row">
-                   <div class="col-12 text-center mb-4">
-                       <h2 class="fw-bold">Why Choose Bumatara.com</h2>
-                       <p class="text-muted">We help companies deliver AI solutions that make a real impact on their
-                           business.</p>
+                   <div class="col-12 text-center mb-5">
+                       <h2 class="fw-bold">Mengapa Memilih Bumatara.com</h2>
+                       <p class="text-muted">Jembatan antara pembelajaran teknologi masa depan dan implementasi solusi AI nyata untuk bisnis Anda.</p>
                    </div>
                </div>
                <div class="row">
+                   <!-- Edukasi & Praktik -->
                    <div class="col-lg-4 col-md-6 mb-4">
-                       <div class="feature-card text-start">
+                       <div class="feature-card text-start h-100 p-4 shadow-sm rounded-4 border-0">
                            <div class="mb-3">
-                               <i class="bi bi-graph-up-arrow fs-1 text-primary"></i>
+                               <i class="bi bi-book fs-1 text-primary"></i>
                            </div>
-                           <h5 class="fw-bold">Increased Productivity</h5>
-                           <p>
-                               Our AI solutions are designed to accelerate business processes, reduce manual tasks, and
-                               significantly improve your team's overall efficiency.
+                           <h5 class="fw-bold">Pusat Belajar AI Terapan</h5>
+                           <p class="text-muted">
+                               Bukan sekadar teori, kami menyediakan akses ke pustaka kode dan dokumentasi pembuatan tools Computer Vision untuk membantu Anda menjadi praktisi AI yang handal.
                            </p>
                        </div>
                    </div>
+
+                   <!-- Vendor/Solusi Kustom -->
                    <div class="col-lg-4 col-md-6 mb-4">
-                       <div class="feature-card text-start">
+                       <div class="feature-card text-start h-100 p-4 shadow-sm rounded-4 border-0">
                            <div class="mb-3">
-                               <i class="bi bi-shield-check fs-1 text-success"></i>
+                               <i class="bi bi-cpu fs-1 text-success"></i>
                            </div>
-                           <h5 class="fw-bold">Security & Reliability</h5>
-                           <p>
-                               With a secure and reliable infrastructure, we ensure your business's data and systems are
-                               protected at all times, giving you peace of mind.
+                           <h5 class="fw-bold">Vendor Aplikasi AI Kustom</h5>
+                           <p class="text-muted">
+                               Kami membantu perusahaan membangun sistem cerdas seperti OCR, Object Detection, hingga analisis dokumen (RAG) yang dirancang khusus untuk kebutuhan spesifik bisnis Anda.
                            </p>
                        </div>
                    </div>
+
+                   <!-- Inovasi & Dokumentasi -->
                    <div class="col-lg-4 col-md-6 mb-4">
-                       <div class="feature-card text-start">
+                       <div class="feature-card text-start h-100 p-4 shadow-sm rounded-4 border-0">
                            <div class="mb-3">
-                               <i class="bi bi-lightbulb fs-1 text-warning"></i>
+                               <i class="bi bi-rocket-takeoff fs-1 text-warning"></i>
                            </div>
-                           <h5 class="fw-bold">Continuous Innovation</h5>
-                           <p>
-                               We continuously develop the latest technologies to ensure your business remains at the
-                               forefront of the ever-changing digital landscape.
+                           <h5 class="fw-bold">Inovasi Berkelanjutan</h5>
+                           <p class="text-muted">
+                               Melalui riset mendalam pada teknologi terbaru seperti YOLO dan OpenCV, kami memastikan setiap solusi dan materi yang kami berikan tetap relevan dengan standar industri.
                            </p>
                        </div>
                    </div>
@@ -435,91 +355,95 @@
                    </div>
 
                    <div class="col-lg-6">
-                       <div class="qna-box h-100 p-4 border rounded shadow-sm bg-light">
-                           <h5 class="fw-bold">Frequently Asked Questions</h5>
-                           <div class="accordion mt-4" id="qnaAccordion">
-                               <div class="accordion-item">
+                       <div class="qna-box h-100 p-4 border-0 rounded-4 shadow-sm bg-white">
+                           <h5 class="fw-bold mb-4">Pertanyaan yang Sering Diajukan</h5>
+                           <div class="accordion" id="qnaAccordion">
+
+                               <!-- Edukasi / Belajar AI -->
+                               <div class="accordion-item border-0 mb-2 shadow-sm rounded-3 overflow-hidden">
                                    <h2 class="accordion-header" id="heading1">
                                        <button class="accordion-button collapsed fw-semibold" type="button"
                                            data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false"
                                            aria-controls="collapse1">
-                                           How does OCR work for ID cards?
+                                           Apa yang bisa saya pelajari di Pustaka Kode Bumatara?
                                        </button>
                                    </h2>
                                    <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1"
                                        data-bs-parent="#qnaAccordion">
-                                       <div class="accordion-body">
-                                           OCR scans text from an image and converts it into digital data using pattern
-                                           recognition algorithms.
+                                       <div class="accordion-body text-muted">
+                                           Anda dapat mengakses dokumentasi teknis dan kode sumber untuk proyek Computer Vision seperti YOLOv5, OpenCV, hingga sistem deteksi objek real-time dengan timestamp.
                                        </div>
                                    </div>
                                </div>
 
-                               <div class="accordion-item">
+                               <!-- Vendor / Solusi Bisnis -->
+                               <div class="accordion-item border-0 mb-2 shadow-sm rounded-3 overflow-hidden">
                                    <h2 class="accordion-header" id="heading2">
                                        <button class="accordion-button collapsed fw-semibold" type="button"
                                            data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false"
                                            aria-controls="collapse2">
-                                           What is an API in programming?
+                                           Bagaimana Bumatara menangani proyek custom AI untuk perusahaan?
                                        </button>
                                    </h2>
                                    <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2"
                                        data-bs-parent="#qnaAccordion">
-                                       <div class="accordion-body">
-                                           An API is an interface that allows applications to communicate and exchange
-                                           data.
+                                       <div class="accordion-body text-muted">
+                                           Sebagai vendor, kami membangun solusi end-to-end mulai dari pengembangan model AI khusus (seperti OCR KTP atau deteksi pelanggaran) hingga integrasi ke dalam aplikasi berbasis web (Laravel/Python) atau bot perdagangan.
                                        </div>
                                    </div>
                                </div>
 
-                               <div class="accordion-item">
+                               <!-- Teknis / Model AI -->
+                               <div class="accordion-item border-0 mb-2 shadow-sm rounded-3 overflow-hidden">
                                    <h2 class="accordion-header" id="heading3">
                                        <button class="accordion-button collapsed fw-semibold" type="button"
                                            data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false"
                                            aria-controls="collapse3">
-                                           Do all AI systems use Machine Learning?
+                                           Apakah saya bisa mendownload model AI yang sudah jadi?
                                        </button>
                                    </h2>
                                    <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3"
                                        data-bs-parent="#qnaAccordion">
-                                       <div class="accordion-body">
-                                           No, some AI systems use logical rules without Machine Learning.
+                                       <div class="accordion-body text-muted">
+                                           Ya, kami menyediakan fitur unduhan untuk model AI yang telah dilatih (seperti file .pt atau .weights) sehingga Anda bisa langsung mengimplementasikannya di lingkungan pengembangan Anda sendiri.
                                        </div>
                                    </div>
                                </div>
 
-                               <div class="accordion-item">
+                               <!-- Optimasi / Performa -->
+                               <div class="accordion-item border-0 mb-2 shadow-sm rounded-3 overflow-hidden">
                                    <h2 class="accordion-header" id="heading4">
                                        <button class="accordion-button collapsed fw-semibold" type="button"
                                            data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false"
                                            aria-controls="collapse4">
-                                           How can I optimize AI detection speed?
+                                           Bagaimana cara mengoptimalkan kecepatan deteksi AI saya?
                                        </button>
                                    </h2>
                                    <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4"
                                        data-bs-parent="#qnaAccordion">
-                                       <div class="accordion-body">
-                                           Use a lighter model, optimize the code, and accelerate GPU processing.
+                                       <div class="accordion-body text-muted">
+                                           Anda dapat melakukan optimasi melalui penggunaan hardware yang tepat (seperti GPU NVIDIA RTX), teknik merging model, atau menggunakan library akselerasi seperti TensorRT untuk pemrosesan GPU yang lebih cepat.
                                        </div>
                                    </div>
                                </div>
 
-                               <div class="accordion-item">
+                               <!-- Startup & Kolaborasi -->
+                               <div class="accordion-item border-0 mb-0 shadow-sm rounded-3 overflow-hidden">
                                    <h2 class="accordion-header" id="heading5">
                                        <button class="accordion-button collapsed fw-semibold" type="button"
                                            data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false"
                                            aria-controls="collapse5">
-                                           What is the function of JSON?
+                                           Apakah Bumatara menerima kolaborasi pembuatan produk SaaS?
                                        </button>
                                    </h2>
                                    <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5"
                                        data-bs-parent="#qnaAccordion">
-                                       <div class="accordion-body">
-                                           JSON is used to store and exchange data in a lightweight and human-readable
-                                           format.
+                                       <div class="accordion-body text-muted">
+                                           Tentu. Melalui PT Abdigital Innovation, kami fokus pada pengembangan aplikasi kehadiran berbasis SaaS dan sistem analisis dokumen yang dapat disesuaikan dengan kebutuhan pasar Anda.
                                        </div>
                                    </div>
                                </div>
+
                            </div>
                        </div>
                    </div>

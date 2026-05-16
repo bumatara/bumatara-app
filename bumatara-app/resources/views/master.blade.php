@@ -121,6 +121,11 @@
                             style="color: #e9ecef;">Education</a>
                     </li>
                     <li class="nav-item">
+                        <a href="{{ route('putaka-code') }}"
+                            class="nav-link {{ request()->routeIs('putaka-code') ? 'active' : '' }}"
+                            style="color: #e9ecef;">Code</a>
+                    </li>
+                    <li class="nav-item">
                         <a href="{{ route('product') }}"
                             class="nav-link {{ request()->routeIs('product') ? 'active' : '' }}"
                             style="color: #e9ecef;">Product</a>
