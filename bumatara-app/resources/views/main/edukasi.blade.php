@@ -1,102 +1,114 @@
    @extends('master')
    @section('main-panel')
+   <?php
+    // var_dump($video);
+    ?>
 
    <main>
 
        <div class="container">
            <div class="row">
-               <!-- SIDEBAR KATEGORI -->
                <div class="col-lg-3 col-md-4 border-end" style="max-height: 90vh; overflow-y: auto;">
                    <h6 class="fw-bold mb-3">📚 Kategori</h6>
+                   <input type="text" id="searchKategori" class="form-control form-control-sm mb-3"
+                       placeholder="Cari kategori...">
 
-                   <input type="text" class="form-control form-control-sm mb-3" placeholder="Cari kategori...">
-
-                   <ul class="list-group list-group-flush small">
-                       <li class="list-group-item active">Semua Video</li>
-                       <li class="list-group-item">Matematika AI</li>
-                       <li class="list-group-item">Ekonomi AI</li>
-                       <li class="list-group-item">AI untuk Guru</li>
-                       <li class="list-group-item">Machine Learning Dasar</li>
-                       <li class="list-group-item">Deep Learning</li>
-                       <li class="list-group-item">Computer Vision</li>
-                       <li class="list-group-item">NLP Bahasa Indonesia</li>
+                   <ul class="list-group list-group-flush small" id="wrapperKategori">
+                       <a href="{{ request()->fullUrlWithQuery(['kategori' => '', 'page' => 1]) }}"
+                           class="list-group-item list-group-item-action {{ request('kategori') == '' ? 'active' : '' }}">
+                           Semua Video
+                       </a>
+                       @foreach ($video_kategori as $row)
+                       <a href="{{ request()->fullUrlWithQuery(['kategori' => $row->value_kategori, 'page' => 1]) }}"
+                           class="list-group-item list-group-item-action item-kategori {{ request('kategori') == $row->value_kategori ? 'active' : '' }}">
+                           {{ $row->kategori }}
+                       </a>
+                       @endforeach
                    </ul>
                </div>
 
-               <!-- KONTEN VIDEO -->
                <div class="col-lg-9 col-md-8">
-                   <!-- FILTER -->
                    <div class="d-flex flex-wrap gap-2 mb-3 align-items-center">
-                       <input type="text" class="form-control form-control-sm " placeholder="Cari judul video...">
-
-
+                       <form action="{{ url()->current() }}" method="GET" class="w-100 d-flex gap-2">
+                           @if(request('kategori'))
+                           <input type="hidden" name="kategori" value="{{ request('kategori') }}">
+                           @endif
+                           <input type="text" name="cari" class="form-control form-control-sm"
+                               placeholder="Cari judul video..." value="{{ request('cari') }}">
+                           <button type="submit" class="btn btn-sm btn-primary px-3">Cari</button>
+                           @if(request('cari') || request('kategori'))
+                           <a href="{{ url()->current() }}" class="btn btn-sm btn-outline-secondary">Reset</a>
+                           @endif
+                       </form>
                    </div>
 
-                   <!-- GRID VIDEO -->
-                   <div class="row g-3">
-
-                       <!-- VIDEO CARD -->
+                   <div class="row g-4">
+                       @forelse ($video as $row)
                        <div class="col-xl-3 col-lg-4 col-md-6">
-                           <div class="card h-100 shadow-sm">
-                               <div class="ratio ratio-16x9">
-                                   <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" allowfullscreen></iframe>
+                           <div class="card h-100 border-0 shadow-sm"
+                               style="background-color: #ffffff; border: 1px solid #dee2e6; border-radius: 12px; overflow: hidden;">
+                               <div class="position-relative  ratio-16x9">
+                                   <img src="{{ $row->thumbnail }}" class="card-img-top" alt="Thumbnail"
+                                       style="object-fit: cover; width: 100%; height: 100%;">
+                                   <a href="{{ $row->link }}" target="_blank"
+                                       class="position-absolute d-flex align-items-center justify-content-center top-0 start-0 w-100 h-100 text-decoration-none"
+                                       style="background: rgba(0, 0, 0, 0.2);">
+                                       <div class="d-flex align-items-center justify-content-center bg-dark bg-opacity-75 rounded-circle text-white shadow"
+                                           style="width: 45px; height: 45px;">
+                                           <i class="bi bi-play-fill fs-4"></i>
+                                       </div>
+                                   </a>
+                                   <span
+                                       class="position-absolute bottom-0 end-0 px-2 py-0.5 m-2 rounded small fw-semibold text-white"
+                                       style="font-size: 0.75rem; background-color: rgba(0, 0, 0, 0.8) !important;">12:16</span>
                                </div>
-                               <div class="card-body">
-                                   <h6 class="card-title mb-1">AI untuk Prediksi Nilai</h6>
-                                   <span class="badge bg-primary">Matematika AI</span>
-                                   <p class="small text-muted mt-2 mb-0">
-                                       Playlist: Guru
-                                   </p>
+                               <div class="card-body p-3 d-flex flex-column justify-content-between">
+                                   <div>
+                                       <h6 class="card-title fw-bold text-dark text-truncate mb-2"
+                                           title="{{ $row->judul }}">{{ $row->judul }}</h6>
+                                       <span class="badge bg-warning text-dark px-2 py-1"
+                                           style="font-size: 0.7rem;">{{ $row->kategori }}</span>
+                                   </div>
+                                   <div
+                                       class="pt-3 border-top border-light mt-3 d-flex justify-content-between align-items-center">
+                                       <span class="small text-muted text-truncate" style="max-width: 120px;"><i
+                                               class="bi bi-collection-play me-1"></i>{{ $row->kategori }}</span>
+                                       <a href="{{ $row->link }}" target="_blank"
+                                           class="text-primary text-decoration-none small fw-medium"
+                                           style="font-size: 0.8rem;">Tonton <i class="bi bi-arrow-right small"></i></a>
+                                   </div>
                                </div>
                            </div>
                        </div>
-
-                       <div class="col-xl-3 col-lg-4 col-md-6">
-                           <div class="card h-100 shadow-sm">
-                               <div class="ratio ratio-16x9">
-                                   <iframe src="https://www.youtube.com/embed/VIDEO_ID_2" allowfullscreen></iframe>
-                               </div>
-                               <div class="card-body">
-                                   <h6 class="card-title mb-1">AI Analisis Inflasi</h6>
-                                   <span class="badge bg-success">Ekonomi AI</span>
-                                   <p class="small text-muted mt-2 mb-0">
-                                       Playlist: Kelas 12
-                                   </p>
-                               </div>
-                           </div>
+                       @empty
+                       <div class="col-100 text-center py-5">
+                           <i class="bi bi-video-off text-muted fs-1 mb-2 d-block"></i>
+                           <p class="text-muted">Tidak ada video ditemukan.</p>
                        </div>
-
-                       <div class="col-xl-3 col-lg-4 col-md-6">
-                           <div class="card h-100 shadow-sm">
-                               <div class="ratio ratio-16x9">
-                                   <iframe src="https://www.youtube.com/embed/07TK9Qsps5U" allowfullscreen></iframe>
-                               </div>
-                               <div class="card-body">
-                                   <h6 class="card-title mb-1">AI Membantu Guru</h6>
-                                   <span class="badge bg-warning text-dark">AI untuk Guru</span>
-                                   <p class="small text-muted mt-2 mb-0">
-                                       Playlist: Guru
-                                   </p>
-                               </div>
-                           </div>
-                       </div>
+                       @endforelse
                    </div>
 
-                   <!-- PAGINATION -->
                    <div class="mt-4 d-flex justify-content-center">
-                       <nav>
-                           <ul class="pagination pagination-sm">
-                               <li class="page-item disabled"><a class="page-link">«</a></li>
-                               <li class="page-item active"><a class="page-link">1</a></li>
-                               <li class="page-item"><a class="page-link">2</a></li>
-                               <li class="page-item"><a class="page-link">3</a></li>
-                               <li class="page-item"><a class="page-link">»</a></li>
-                           </ul>
-                       </nav>
+                       {{ $video->appends(request()->query())->links('pagination::bootstrap-5') }}
                    </div>
-
                </div>
            </div>
+
+           <script>
+           document.getElementById('searchKategori').addEventListener('input', function() {
+               let filter = this.value.toLowerCase();
+               let items = document.querySelectorAll('.item-kategori');
+
+               items.forEach(function(item) {
+                   let text = item.textContent.toLowerCase();
+                   if (text.includes(filter)) {
+                       item.style.setProperty('display', 'block', 'important');
+                   } else {
+                       item.style.setProperty('display', 'none', 'important');
+                   }
+               });
+           });
+           </script>
        </div>
 
 

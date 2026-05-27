@@ -65,7 +65,7 @@
                                </p>
 
                                <div class="d-grid">
-                                   <a href="https://www.youtube.com/watch?v=07TK9Qsps5U" target="_blank"
+                                   <a href="{{ $row->link }}" target="_blank"
                                        class="btn btn-sm btn-outline-info rounded-pill px-3"
                                        style="border-color: var(--turquoise-light); color: #4c0a0aff;">
                                        <i class="bi bi-play-fill me-1"></i>View

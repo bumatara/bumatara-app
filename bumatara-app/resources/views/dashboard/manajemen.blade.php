@@ -14,7 +14,7 @@
             <i class="bi bi-youtube me-2"></i>Manajemen Konten
         </button>
     </li>
-     <li class="nav-item" role="presentation">
+    <li class="nav-item" role="presentation">
         <button class="nav-link" id="system-tab" data-bs-toggle="pill" data-bs-target="#panel-system" type="button"
             role="tab">
             <i class="bi bi-code-square me-2"></i>Manajemen system
@@ -62,68 +62,48 @@
                 <table class="table table-custom align-middle">
                     <thead>
                         <tr>
-                            <thead>
-                                <tr>
-                                    <th class="fw-bold" style="color: #ffffff !important;">Nama / Judul Aset</th>
-                                    <th class="fw-bold" style="color: #ffffff !important;">Tipe Konten</th>
-                                    <th class="fw-bold" style="color: #ffffff !important;">Kategori / Keterangan File
-                                    </th>
-                                    <th class="fw-bold" style="color: #ffffff !important;">Tanggal Upload</th>
-                                    <th class="fw-bold text-center" style="color: #ffffff !important;">Aksi</th>
-                                </tr>
-                            </thead>
+                            <th class="fw-bold" style="color: #ffffff !important; width: 80px;">Preview</th>
+                            <th class="fw-bold" style="color: #ffffff !important;">Nama / Judul Aset</th>
+                            <th class="fw-bold" style="color: #ffffff !important;">Tipe Konten</th>
+                            <th class="fw-bold" style="color: #ffffff !important;">Kategori / Keterangan File</th>
+                            <th class="fw-bold" style="color: #ffffff !important;">Tanggal Upload</th>
+                            <th class="fw-bold text-center" style="color: #ffffff !important;">Aksi</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td>
-                                <div class="fw-semibold text-white">Implementasi Real-Time Video Detection</div>
-                                <small class="text-muted">https://youtube.com/watch?v=...</small>
+                                <div class="position-relative ratio ratio-16x9 rounded-2 overflow-hidden border border-secondary border-opacity-20"
+                                    style="width: 80px; height: 45px;">
+                                    <img src="https://img.youtube.com/vi/07TK9Qsps5U/maxresdefault.jpg" alt="Thumbnail"
+                                        style="object-fit: cover; width: 100%; height: 100%;">
+                                </div>
                             </td>
-                            <td><span
-                                    class="badge bg-danger bg-opacity-20 text-danger border border-danger border-opacity-20 px-2 py-1">Video
-                                    Edukasi</span></td>
+                            <td>
+                                <div class="fw-semibold text-white">Implementasi Real-Time Video Detection</div>
+                                <small class="text-muted">https://youtube.com/watch?v=07TK9Qsps5U</small>
+                            </td>
+                            <td>
+                                <span
+                                    class="badge bg-danger bg-opacity-20 text-danger border border-danger border-opacity-20 px-2 py-1">
+                                    Video Edukasi
+                                </span>
+                            </td>
                             <td><span class="text-info small">Computer Vision</span></td>
                             <td>15 Mei 2026</td>
                             <td class="text-center">
-                                <button class="btn btn-sm btn-outline-light btn-action me-1"><i
-                                        class="bi bi-pencil"></i></button>
-                                <button class="btn btn-sm btn-outline-danger btn-action"><i
-                                        class="bi bi-trash"></i></button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div class="fw-semibold text-white">OCR KTP Parser Engine</div>
-                                <small class="text-muted">main_processor.py &bull; yolov5_ktp.pt</small>
-                            </td>
-                            <td><span
-                                    class="badge bg-warning bg-opacity-20 text-warning border border-warning border-opacity-20 px-2 py-1">Source
-                                    & Model AI</span></td>
-                            <td><span class="text-secondary small">OCR System</span></td>
-                            <td>12 Mei 2026</td>
-                            <td class="text-center">
-                                <button class="btn btn-sm btn-outline-light btn-action me-1"><i
-                                        class="bi bi-pencil"></i></button>
-                                <button class="btn btn-sm btn-outline-danger btn-action"><i
-                                        class="bi bi-trash"></i></button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div class="fw-semibold text-white">Mockup Dashboard Absensi SaaS</div>
-                                <small class="text-muted">ui-presence-v1.png</small>
-                            </td>
-                            <td><span
-                                    class="badge bg-success bg-opacity-20 text-success border border-success border-opacity-20 px-2 py-1">Foto
-                                    Produk</span></td>
-                            <td><span class="text-secondary small">Image Asset</span></td>
-                            <td>10 Mei 2026</td>
-                            <td class="text-center">
-                                <button class="btn btn-sm btn-outline-light btn-action me-1"><i
-                                        class="bi bi-pencil"></i></button>
-                                <button class="btn btn-sm btn-outline-danger btn-action"><i
-                                        class="bi bi-trash"></i></button>
+                                <button class="btn btn-sm btn-outline-light btn-action me-1" data-bs-toggle="modal"
+                                    data-bs-target="#modalEditAset" data-id="1"
+                                    data-judul="Implementasi Real-Time Video Detection"
+                                    data-link="https://youtube.com/watch?v=07TK9Qsps5U" data-tipe="Video Edukasi"
+                                    data-kategori="Computer Vision">
+                                    <i class="bi bi-pencil"></i>
+                                </button>
+
+                                <button class="btn btn-sm btn-outline-danger btn-action" data-bs-toggle="modal"
+                                    data-bs-target="#modalHapusAset" data-id="1">
+                                    <i class="bi bi-trash"></i>
+                                </button>
                             </td>
                         </tr>
                     </tbody>
@@ -135,7 +115,8 @@
     <div class="tab-pane fade show" id="panel-system" role="tabpanel">
         <div class="data-card mb-4">
             <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-center gap-3 mb-4">
-                <h5 class="fw-bold m-0 text-white"><i class="bi bi-folder2-open text-info me-2"></i> Daftar Code System</h5>
+                <h5 class="fw-bold m-0 text-white"><i class="bi bi-folder2-open text-info me-2"></i> Daftar Code System
+                </h5>
                 <div class="d-flex gap-2">
                     <input type="text" class="form-control search-box form-control-sm text-white"
                         placeholder="Cari aset...">
@@ -413,62 +394,11 @@
     </div>
 </div>
 @include('dashboard.modal')
-<script>
-// 1. Handler saat Modal Edit Terbuka
-const modalEdit = document.getElementById('modalEditData');
-if (modalEdit) {
-    modalEdit.addEventListener('show.bs.modal', function(event) {
-        // Tombol yang memicu modal
-        const button = event.relatedTarget;
-
-        // Ambil data dari atribut data-*
-        const id = button.getAttribute('data-id');
-        const content = button.getAttribute('data-content');
-        const parameter = button.getAttribute('data-parameter');
-
-        // Isi nilai ke dalam input modal
-        document.getElementById('edit-id').value = id;
-        document.getElementById('edit-content').value = content;
-        document.getElementById('edit-parameter').value = parameter;
-    });
-}
-
-// 2. Handler saat Modal Konfirmasi Delete Terbuka
-const modalDelete = document.getElementById('modalKonfirmasiDelete');
-let idDataYangAkanDihapus = null;
-
-if (modalDelete) {
-    modalDelete.addEventListener('show.bs.modal', function(event) {
-        const button = event.relatedTarget;
-        // Ambil ID dari tombol hapus di tabel
-        idDataYangAkanDihapus = button.getAttribute('data-id');
-    });
-}
-
-// Fungsi Eksekusi Submit Edit Akhir
-function executeEdit() {
-    const id = document.getElementById('edit-id').value;
-    const content = document.getElementById('edit-content').value;
-    const parameter = document.getElementById('edit-parameter').value;
-
-    // Jalankan AJAX atau Submit Form di sini menggunakan ID tersebut
-    console.log("Mengirim perubahan untuk ID:", id);
-
-    // Menutup modal konfirmasi setelah selesai
-    bootstrap.Modal.getInstance(document.getElementById('modalKonfirmasiEdit')).hide();
-}
-
-// Fungsi Eksekusi Delete Akhir
-function executeDelete() {
-    if (idDataYangAkanDihapus) {
-        // Jalankan proses hapus/routing ke Laravel backend menggunakan idDataYangAkanDihapus
-        console.log("Menghapus data dengan ID:", idDataYangAkanDihapus);
-
-        // Contoh redirect Laravel: window.location.href = "/dashboard/kategori/delete/" + idDataYangAkanDihapus;
-    }
-    bootstrap.Modal.getInstance(document.getElementById('modalKonfirmasiDelete')).hide();
-}
 
 
-</script>
+@push('scripts')
+<script src="{{ asset('js/manajemen.js') }}"></script>
+
+
+@endpush
 @endsection

@@ -17,13 +17,14 @@ Route::get(
     [Controller::class, 'index']
 )->name('home');
 
+
+Route::get('/edukasi', [Controller::class, 'education']
+)->name('edukasi');
+
 Route::get('/about', function () {
     return view('main.about');
 })->name('about');
 
-Route::get('/edukasi', function () {
-    return view('main.edukasi');
-})->name('edukasi');
 
 Route::get('/putaka-code', function () {
     return view('main.code');
