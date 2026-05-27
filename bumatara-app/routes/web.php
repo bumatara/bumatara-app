@@ -1,14 +1,20 @@
 <?php
 
+use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\QuestionController;
+use App\Http\Controllers\MuploadController;
+
+use App\Http\Controllers\Mdatacontroller;
+
+
 
 
 
 Route::get(
     '/',
-    [QuestionController::class, 'index']
+    [Controller::class, 'index']
 )->name('home');
 
 Route::get('/about', function () {
@@ -48,14 +54,18 @@ Route::get('/dashboard', function () {
     return view('dashboard.dashboard');
 })->name('dashboard');
 
-Route::get('/upload', function () {
-    return view('dashboard.upload');
-})->name('upload');
+Route::get(
+    '/upload',
+    [MuploadController::class, 'index']
+)->name('upload');
 
 
-Route::get('/manajemen', function () {
-    return view('dashboard.manajemen');
-})->name('manajemen');
+Route::get(
+    '/manajemen',
+    [Mdatacontroller::class, 'index']
+)->name('manajemen');
+
+
 
 // Metode send data
 Route::post('/question/store', [QuestionController::class, 'store'])->name('question.store');

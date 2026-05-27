@@ -7,23 +7,24 @@ use Illuminate\Support\Facades\DB;
 
 class Education extends Model
 {
-    protected $table = 'question'; // nama tabel
-
-    /**
-     * Ambil video / question berdasarkan status aktif
-     */
-    public static function getVideo($activeStatus)
+  
+    public static function getVideo()
     {
-        return DB::select(
-            "
-            select e.judul, e.link,(pc.content) kategori, e.deskripsi 
-            ,DATEDIFF(NOW(), e.created_at) AS time_ago_day
-            from education e 
-            left join prm_core pc 
-            on pc.value = e.kategori
-            where e.sts_active = 1 and pc.parameter = 'edukasi'
-            ",
-            [$activeStatus]
-        );
+         return DB::select("
+            
+         SELECT 
+            e.judul, 
+            e.link,
+            pc.content AS kategori, 
+            e.deskripsi,
+            DATEDIFF(NOW(), e.created_at) AS time_ago_day,
+            -- Query untuk generate URL Thumbnail YouTube otomatis
+            CONCAT('https://img.youtube.com/vi/', SUBSTRING_INDEX(SUBSTRING_INDEX(e.link, 'v=', -1), '&', 1), '/maxresdefault.jpg') AS thumbnail
+        FROM education e 
+        LEFT JOIN prm_core pc ON pc.value = e.kategori
+        WHERE e.sts_active = 1 
+        AND pc.parameter = 'edukasi' 
+        AND e.view_at_dashboard = 1;   
+         ");
     }
 }

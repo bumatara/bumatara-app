@@ -30,10 +30,5 @@ class QuestionController extends Controller
         return redirect()->back()->with('success', 'Pertanyaan berhasil dikirim!');
     }
 
-    public function index()
-    {
-        $d_question = Question::getActiveQuestion();
-
-        return view('main.home', compact('d_question'));
-    }
+    
 }

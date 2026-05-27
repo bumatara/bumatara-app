@@ -44,73 +44,38 @@
                </div>
                <div class="container my-4">
                    <div class="d-flex flex-row flex-nowrap overflow-auto gap-3 pb-3" style="scrollbar-width: none;">
-                       <div class="card border-0 shadow-sm" style="min-width: 280px; max-width: 280px;">
+                       @foreach ($dashboard_video as $row)
+                       <div class="card border-3 shadow-sm"
+                           style="min-width: 280px; max-width: 280px; background-color: var(--card-dark); border: 1px solid rgba(0, 143, 168, 0.15); border-radius: 12px; overflow: hidden;">
                            <div class="position-relative">
-                               <img src="https://placehold.co/280x157" class="card-img-top rounded-3"
-                                   alt="Video Thumbnail">
-                               <span
-                                   class="position-absolute bottom-0 end-0 bg-dark text-white px-1 py-0.5 m-2 rounded small fw-semibold">12:35</span>
-                           </div>
-                           <div class="card-body px-2 pt-3 pb-2">
-                               <h5 class="card-title fs-6 fw-bold text-truncate" title="Judul Video YouTube Pertama">
-                                   Judul Video YouTube Pertama</h5>
-                               <p class="card-text text-muted small mb-3">Deskripsi singkat atau nama channel</p>
-                               <div class="d-grid">
-                                   <a href="#" class="btn btn-outline-danger btn-sm">View</a>
-                               </div>
-                           </div>
-                       </div>
+                               <img src="{{ $row->thumbnail }}" class="card-img-top" alt="Video Thumbnail" style="height: 157px; object-fit: cover;">
 
-                       <div class="card border-0 shadow-sm" style="min-width: 280px; max-width: 280px;">
-                           <div class="position-relative">
-                               <img src="https://placehold.co/280x157" class="card-img-top rounded-3"
-                                   alt="Video Thumbnail">
                                <span
-                                   class="position-absolute bottom-0 end-0 bg-dark text-white px-1 py-0.5 m-2 rounded small fw-semibold">08:14</span>
+                                   class="position-absolute bottom-0 end-0 bg-dark  px-2 py-0.5 m-2 rounded small fw-semibold"
+                                   style="font-size: 0.75rem; background-color: rgba(0, 0, 0, 0.75) !important;">12:16</span>
                            </div>
-                           <div class="card-body px-2 pt-3 pb-2">
-                               <h5 class="card-title fs-6 fw-bold text-truncate" title="Judul Video YouTube Kedua">Judul
-                                   Video YouTube Kedua</h5>
-                               <p class="card-text text-muted small mb-3">Deskripsi singkat atau nama channel</p>
-                               <div class="d-grid">
-                                   <a href="#" class="btn btn-outline-danger btn-sm">View</a>
-                               </div>
-                           </div>
-                       </div>
+                           <div class="card-body px-3 pt-3 pb-3">
+                               <h5 class="card-title fs-6 fw-bold text-truncate  mb-1"
+                                   title="{{ $row->judul }}">
+                                   {{ $row->judul }}
+                               </h5>
 
-                       <div class="card border-0 shadow-sm" style="min-width: 280px; max-width: 280px;">
-                           <div class="position-relative">
-                               <img src="https://placehold.co/280x157" class="card-img-top rounded-3"
-                                   alt="Video Thumbnail">
-                               <span
-                                   class="position-absolute bottom-0 end-0 bg-dark text-white px-1 py-0.5 m-2 rounded small fw-semibold">14:50</span>
-                           </div>
-                           <div class="card-body px-2 pt-3 pb-2">
-                               <h5 class="card-title fs-6 fw-bold text-truncate" title="Judul Video YouTube Ketiga">
-                                   Judul Video YouTube Ketiga</h5>
-                               <p class="card-text text-muted small mb-3">Deskripsi singkat atau nama channel</p>
-                               <div class="d-grid">
-                                   <a href="#" class="btn btn-outline-danger btn-sm">View</a>
-                               </div>
-                           </div>
-                       </div>
+                               <p class="card-text small mb-3  text-truncate" style="max-height: 40px;">
+                                   {{ $row->deskripsi }}
+                               </p>
 
-                       <div class="card border-0 shadow-sm" style="min-width: 280px; max-width: 280px;">
-                           <div class="position-relative">
-                               <img src="https://placehold.co/280x157" class="card-img-top rounded-3"
-                                   alt="Video Thumbnail">
-                               <span
-                                   class="position-absolute bottom-0 end-0 bg-dark text-white px-1 py-0.5 m-2 rounded small fw-semibold">22:05</span>
-                           </div>
-                           <div class="card-body px-2 pt-3 pb-2">
-                               <h5 class="card-title fs-6 fw-bold text-truncate" title="Judul Video YouTube Keempat">
-                                   Judul Video YouTube Keempat</h5>
-                               <p class="card-text text-muted small mb-3">Deskripsi singkat atau nama channel</p>
                                <div class="d-grid">
-                                   <a href="#" class="btn btn-outline-danger btn-sm">View</a>
+                                   <a href="https://www.youtube.com/watch?v=07TK9Qsps5U" target="_blank"
+                                       class="btn btn-sm btn-outline-info rounded-pill px-3"
+                                       style="border-color: var(--turquoise-light); color: #4c0a0aff;">
+                                       <i class="bi bi-play-fill me-1"></i>View
+                                   </a>
                                </div>
                            </div>
                        </div>
+                       @endforeach
+
+
                    </div>
                </div>
            </div>
@@ -165,32 +130,32 @@
                    </div>
 
                    <script>
-                       const qrForm = document.getElementById("qrForm");
-                       const qrInput = document.getElementById("qrInput");
-                       const qrCanvas = document.getElementById("qrCanvas");
-                       const downloadBtn = document.getElementById("downloadBtn");
+                   const qrForm = document.getElementById("qrForm");
+                   const qrInput = document.getElementById("qrInput");
+                   const qrCanvas = document.getElementById("qrCanvas");
+                   const downloadBtn = document.getElementById("downloadBtn");
 
-                       const qr = new QRious({
-                           element: qrCanvas,
-                           size: 200,
-                           value: ''
-                       });
+                   const qr = new QRious({
+                       element: qrCanvas,
+                       size: 200,
+                       value: ''
+                   });
 
-                       qrForm.addEventListener("submit", function(e) {
-                           e.preventDefault();
-                           const text = qrInput.value.trim();
-                           if (text) {
-                               qr.value = text;
-                               downloadBtn.style.display = "inline-block";
-                           }
-                       });
+                   qrForm.addEventListener("submit", function(e) {
+                       e.preventDefault();
+                       const text = qrInput.value.trim();
+                       if (text) {
+                           qr.value = text;
+                           downloadBtn.style.display = "inline-block";
+                       }
+                   });
 
-                       downloadBtn.addEventListener("click", function() {
-                           const link = document.createElement("a");
-                           link.href = qrCanvas.toDataURL("image/png");
-                           link.download = "qrcode.png";
-                           link.click();
-                       });
+                   downloadBtn.addEventListener("click", function() {
+                       const link = document.createElement("a");
+                       link.href = qrCanvas.toDataURL("image/png");
+                       link.download = "qrcode.png";
+                       link.click();
+                   });
                    </script>
 
                </div>
@@ -198,18 +163,18 @@
 
            <!-- Script JS sederhana (dummy result) -->
            <script>
-               document.getElementById('urlCheckForm').addEventListener('submit', function(e) {
-                   e.preventDefault();
-                   const url = document.getElementById('urlInput').value;
-                   const resultBox = document.getElementById('hasilCheck');
+           document.getElementById('urlCheckForm').addEventListener('submit', function(e) {
+               e.preventDefault();
+               const url = document.getElementById('urlInput').value;
+               const resultBox = document.getElementById('hasilCheck');
 
-                   // Dummy logic
-                   if (url.includes("https")) {
-                       resultBox.value = "✅ URL valid & menggunakan HTTPS: " + url;
-                   } else {
-                       resultBox.value = "⚠️ URL mencurigakan atau tidak menggunakan HTTPS: " + url;
-                   }
-               });
+               // Dummy logic
+               if (url.includes("https")) {
+                   resultBox.value = "✅ URL valid & menggunakan HTTPS: " + url;
+               } else {
+                   resultBox.value = "⚠️ URL mencurigakan atau tidak menggunakan HTTPS: " + url;
+               }
+           });
            </script>
 
 
@@ -231,7 +196,8 @@
                <div class="row">
                    <div class="col-12 text-center mb-5">
                        <h2 class="fw-bold">Mengapa Memilih Bumatara.com</h2>
-                       <p class="text-muted">Jembatan antara pembelajaran teknologi masa depan dan implementasi solusi AI nyata untuk bisnis Anda.</p>
+                       <p class="text-muted">Jembatan antara pembelajaran teknologi masa depan dan implementasi solusi
+                           AI nyata untuk bisnis Anda.</p>
                    </div>
                </div>
                <div class="row">
@@ -243,7 +209,8 @@
                            </div>
                            <h5 class="fw-bold">Pusat Belajar AI Terapan</h5>
                            <p class="text-muted">
-                               Bukan sekadar teori, kami menyediakan akses ke pustaka kode dan dokumentasi pembuatan tools Computer Vision untuk membantu Anda menjadi praktisi AI yang handal.
+                               Bukan sekadar teori, kami menyediakan akses ke pustaka kode dan dokumentasi pembuatan
+                               tools Computer Vision untuk membantu Anda menjadi praktisi AI yang handal.
                            </p>
                        </div>
                    </div>
@@ -256,7 +223,8 @@
                            </div>
                            <h5 class="fw-bold">Vendor Aplikasi AI Kustom</h5>
                            <p class="text-muted">
-                               Kami membantu perusahaan membangun sistem cerdas seperti OCR, Object Detection, hingga analisis dokumen (RAG) yang dirancang khusus untuk kebutuhan spesifik bisnis Anda.
+                               Kami membantu perusahaan membangun sistem cerdas seperti OCR, Object Detection, hingga
+                               analisis dokumen (RAG) yang dirancang khusus untuk kebutuhan spesifik bisnis Anda.
                            </p>
                        </div>
                    </div>
@@ -269,7 +237,8 @@
                            </div>
                            <h5 class="fw-bold">Inovasi Berkelanjutan</h5>
                            <p class="text-muted">
-                               Melalui riset mendalam pada teknologi terbaru seperti YOLO dan OpenCV, kami memastikan setiap solusi dan materi yang kami berikan tetap relevan dengan standar industri.
+                               Melalui riset mendalam pada teknologi terbaru seperti YOLO dan OpenCV, kami memastikan
+                               setiap solusi dan materi yang kami berikan tetap relevan dengan standar industri.
                            </p>
                        </div>
                    </div>
@@ -371,7 +340,9 @@
                                    <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1"
                                        data-bs-parent="#qnaAccordion">
                                        <div class="accordion-body text-muted">
-                                           Anda dapat mengakses dokumentasi teknis dan kode sumber untuk proyek Computer Vision seperti YOLOv5, OpenCV, hingga sistem deteksi objek real-time dengan timestamp.
+                                           Anda dapat mengakses dokumentasi teknis dan kode sumber untuk proyek Computer
+                                           Vision seperti YOLOv5, OpenCV, hingga sistem deteksi objek real-time dengan
+                                           timestamp.
                                        </div>
                                    </div>
                                </div>
@@ -388,7 +359,9 @@
                                    <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2"
                                        data-bs-parent="#qnaAccordion">
                                        <div class="accordion-body text-muted">
-                                           Sebagai vendor, kami membangun solusi end-to-end mulai dari pengembangan model AI khusus (seperti OCR KTP atau deteksi pelanggaran) hingga integrasi ke dalam aplikasi berbasis web (Laravel/Python) atau bot perdagangan.
+                                           Sebagai vendor, kami membangun solusi end-to-end mulai dari pengembangan
+                                           model AI khusus (seperti OCR KTP atau deteksi pelanggaran) hingga integrasi
+                                           ke dalam aplikasi berbasis web (Laravel/Python) atau bot perdagangan.
                                        </div>
                                    </div>
                                </div>
@@ -405,7 +378,9 @@
                                    <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3"
                                        data-bs-parent="#qnaAccordion">
                                        <div class="accordion-body text-muted">
-                                           Ya, kami menyediakan fitur unduhan untuk model AI yang telah dilatih (seperti file .pt atau .weights) sehingga Anda bisa langsung mengimplementasikannya di lingkungan pengembangan Anda sendiri.
+                                           Ya, kami menyediakan fitur unduhan untuk model AI yang telah dilatih (seperti
+                                           file .pt atau .weights) sehingga Anda bisa langsung mengimplementasikannya di
+                                           lingkungan pengembangan Anda sendiri.
                                        </div>
                                    </div>
                                </div>
@@ -422,7 +397,9 @@
                                    <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4"
                                        data-bs-parent="#qnaAccordion">
                                        <div class="accordion-body text-muted">
-                                           Anda dapat melakukan optimasi melalui penggunaan hardware yang tepat (seperti GPU NVIDIA RTX), teknik merging model, atau menggunakan library akselerasi seperti TensorRT untuk pemrosesan GPU yang lebih cepat.
+                                           Anda dapat melakukan optimasi melalui penggunaan hardware yang tepat (seperti
+                                           GPU NVIDIA RTX), teknik merging model, atau menggunakan library akselerasi
+                                           seperti TensorRT untuk pemrosesan GPU yang lebih cepat.
                                        </div>
                                    </div>
                                </div>
@@ -439,7 +416,9 @@
                                    <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5"
                                        data-bs-parent="#qnaAccordion">
                                        <div class="accordion-body text-muted">
-                                           Tentu. Melalui PT Abdigital Innovation, kami fokus pada pengembangan aplikasi kehadiran berbasis SaaS dan sistem analisis dokumen yang dapat disesuaikan dengan kebutuhan pasar Anda.
+                                           Tentu. Melalui PT Abdigital Innovation, kami fokus pada pengembangan aplikasi
+                                           kehadiran berbasis SaaS dan sistem analisis dokumen yang dapat disesuaikan
+                                           dengan kebutuhan pasar Anda.
                                        </div>
                                    </div>
                                </div>

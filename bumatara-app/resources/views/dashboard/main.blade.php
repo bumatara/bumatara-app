@@ -309,6 +309,11 @@
         color: rgba(255, 255, 255, 0.5) !important;
         /* Membuat placeholder putih samar */
     }
+
+
+    th {
+        color: #ffffff !important;
+    }
     </style>
 </head>
 
